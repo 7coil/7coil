@@ -1,0 +1,12 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://leondrolio.co.uk/* https://leondrolio.com/:splat 301!
+https://www.leondrolio.co.uk/* https://leondrolio.com/:splat 301!
+https://leondrolio.uk/* https://leondrolio.com/:splat 301!
+https://www.leondrolio.uk/* https://leondrolio.com/:splat 301!
+https://leondrolio.best/* https://leondrolio.com/:splat 301!
+https://www.leondrolio.best/* https://leondrolio.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://moustacheminer.netlify.com/* https://leondrolio.com/:splat 301!
