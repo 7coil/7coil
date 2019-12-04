@@ -33,7 +33,7 @@ const IndexPage = ({ data }) => (
               <p className={styles.created}>
                 <span>Created {page.frontmatter.date}</span>
               </p>
-              <Img fluid={page.frontmatter.image.childImageSharp.fluid} />
+              {page.frontmatter.image && <Img fluid={page.frontmatter.image.childImageSharp.fluid} />}
               <p className={styles.links}>
                 {
                   page.frontmatter.links
