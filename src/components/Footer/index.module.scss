@@ -4,4 +4,10 @@
   background-color: $primary-colour;
   padding-top: 1em;
   padding-bottom: 1em;
+  .links {
+    float: right;
+    a {
+      margin-left: 1em;
+    }
+  }
 }
