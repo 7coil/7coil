@@ -34,13 +34,6 @@ module.exports = {
         ]
       }
     },
-    {
-      resolve: 'gatsby-plugin-copy-files',
-      options: {
-        source: `${__dirname}/src/static`,
-        destination: '/'
-      }
-    },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-offline',
