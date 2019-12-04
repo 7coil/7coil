@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
 import Header from '../Header';
+import styles from './index.module.scss';
+import PaddingContainer from '../PaddingContainer';
+import Footer from '../Footer';
 
 class Layout extends Component {
   render() {
     return (
-      <div>
+      <div className={styles.body}>
         <Header />
-        {this.props.children}
-        <footer>
-          <hr />
-          <i>Copyright Leondro Lio, Assets 2015 - 2019</i>
-        </footer>
+        <main className={styles.main}>
+          <PaddingContainer>
+            {this.props.children}
+          </PaddingContainer>
+        </main>
+        <Footer />
       </div>
     )
   }

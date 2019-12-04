@@ -1,0 +1,40 @@
+@import 'config';
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  @include onMobile {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    background-color: lightgrey;
+    border-radius: $border-radius;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    @include hoverShadow(1);
+    .description {
+      margin: 0;
+    }
+    .title {
+      margin-top: 0;
+    }
+    .links {
+      margin-bottom: 0;
+    }
+    .description {
+      flex-grow: 1;
+    }
+    .created {
+      font-size: 10pt;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right;
+      column-gap: 1em;
+      row-gap: 0.25em;
+    }
+  }
+}
