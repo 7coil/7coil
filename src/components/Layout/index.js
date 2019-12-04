@@ -12,9 +12,7 @@ class Layout extends Component {
         <DefaultSEO />
         <Header />
         <main className={styles.main}>
-          <PaddingContainer>
-            {this.props.children}
-          </PaddingContainer>
+          {this.props.children}
         </main>
         <Footer />
       </div>

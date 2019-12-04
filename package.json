@@ -1,7 +1,7 @@
 {
   "name": "leondrolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Random Programming Adventures",
   "version": "0.1.0",
   "author": "Leondro Lio <admin@moustacheminer.com>",
   "dependencies": {
@@ -43,9 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/7coil/me"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/7coil/me/issues"
   }
 }
