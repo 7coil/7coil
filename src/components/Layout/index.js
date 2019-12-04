@@ -3,11 +3,13 @@ import Header from '../Header';
 import styles from './index.module.scss';
 import PaddingContainer from '../PaddingContainer';
 import Footer from '../Footer';
+import DefaultSEO from '../DefaultSEO';
 
 class Layout extends Component {
   render() {
     return (
       <div className={styles.body}>
+        <DefaultSEO />
         <Header />
         <main className={styles.main}>
           <PaddingContainer>
