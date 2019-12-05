@@ -14,7 +14,7 @@ date: 2017-05-10 22:06:24+00
 
 DiscordForOffice is a family of Microsoft Office 2013, 2016 and 2019 COM extensions which display rich information about what is happening in the application.
 
-<img style="max-width: 500px" src="./embed.png" />
+![](./embed.png)
 
 Supported Office Applications:
 - Microsoft Word

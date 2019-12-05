@@ -15,10 +15,11 @@ const IndexPage = ({ data }) => (
         </div>
         <iframe
           src="https://www.youtube.com/embed/OKb0agtT-Fk?autoplay=1&amp;mute=1&amp;controls=0&amp;disablekb=1&amp;modestbranding=1&amp;loop=1&amp;playlist=OKb0agtT-Fk"
-          frameborder="0"
+          frameBorder="0"
           className={styles.video}
+          title="Home Page Background"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen />
+          allowFullScreen />
       </div>
     </div>
     <PaddingContainer>
@@ -33,7 +34,12 @@ const IndexPage = ({ data }) => (
               <p className={styles.created}>
                 <span>Created {page.frontmatter.date}</span>
               </p>
-              {page.frontmatter.image && <Img fluid={page.frontmatter.image.childImageSharp.fluid} />}
+              {
+                page.frontmatter.image && 
+                <Link to={page.fields.slug}>
+                  <Img fluid={page.frontmatter.image.childImageSharp.fluid} />
+                </Link>
+              }
               <p className={styles.links}>
                 {
                   page.frontmatter.links
@@ -43,7 +49,6 @@ const IndexPage = ({ data }) => (
                       )
                     })
                 }
-                {page.frontmatter.link && <a href={page.frontmatter.link}>Visit &gt;</a>}
                 <Link to={page.fields.slug}>Project Page</Link>
               </p>
             </div>

@@ -1,13 +1,17 @@
 @import 'config';
 
-.footer {
-  background-color: $primary-colour;
+.links, .copyright {
   padding-top: 1em;
   padding-bottom: 1em;
-  .links {
-    float: right;
-    a {
-      margin-left: 1em;
-    }
+  p {
+    padding: 0;
   }
+}
+
+.links {
+  background-color: $primary-colour;
+}
+
+.copyright {
+  background-color: darken($primary-colour, 10%);
 }
