@@ -1,33 +1,41 @@
 @import 'config';
 
 
-.videoContainerContainer {
-  position: relative;
-  top: 0;
-  max-height: 50vh;
+.videoContainer {
+  height: calc(95vw / 16 * 9);
+
+  @media (min-aspect-ratio: 1/1) {
+    height: 50vh;
+  }
+
   overflow: hidden;
   display: flex;
   align-items: center;
-  .videoContainer {
-    max-height: calc(95vw / 16 * 9);
+  
+  .video {
+    width: 100vw;
+    height: 200vw;
+    pointer-events: none;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    
-    .video {
-      width: 100vw;
-      height: 200vw;
-      pointer-events: none;
-      overflow: hidden;
-      filter: brightness(80%);
-    }
+    filter: brightness(80%);
+  }
 
+  .videoContentContainer {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
     .content {
-      width: 100%;
-      position: absolute;
-      z-index: 1;
       color: white;
+      flex-grow: 1;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
       h1 {
         font-size: 8vw;
         margin: 0;
@@ -37,9 +45,11 @@
         word-wrap: break-word;
         margin: 0;
       }
+
     }
   }
 }
+
 
 .cards {
   display: grid;

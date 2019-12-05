@@ -9,7 +9,7 @@ class Layout extends Component {
     return (
       <div className={styles.body}>
         <DefaultSEO />
-        <Header />
+        {!this.props.noHeader && <Header />}
         <main className={styles.main}>
           {this.props.children}
         </main>
