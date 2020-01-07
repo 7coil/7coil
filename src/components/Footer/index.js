@@ -39,7 +39,7 @@ class Footer extends Component {
         </div>
         <div className={styles.copyright}>
           <PaddingContainer>
-            <i>Copyright Leondro Lio, 2015 - 2019</i>
+            <i>Copyright Leondro Lio, 2015 - 2020</i>
           </PaddingContainer>
         </div>
       </footer>
