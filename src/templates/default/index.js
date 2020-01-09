@@ -16,10 +16,10 @@ export default function Template({
       <SEO
         title={frontmatter.title}
         description={frontmatter.description}
-        image={frontmatter.image.childImageSharp.fluid.src}
+        image={frontmatter.image ? frontmatter.image.childImageSharp.fluid.src : null}
       />
       <PaddingContainer>
-        <p>{fields.slug.replace('/projects/', '/ Projects / ').replace(/\//g, ' / ')}</p>
+        <p>{fields.slug.replace(/\//g, ' / ')}</p>
         <h1>{frontmatter.title}</h1>
         <div className={styles.content}>
           <MDXRenderer>{body}</MDXRenderer>

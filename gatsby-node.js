@@ -1,5 +1,6 @@
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
+const fs = require('fs');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
@@ -50,10 +51,25 @@ exports.createPages = ({ actions, graphql, reporter }) => {
         return;
       }
 
+      const templates = {
+        default: path.resolve(__dirname, 'src', 'templates', 'default', 'index.js')
+      };
+
       result.data.allMdx.edges.forEach(({ node }) => {
+        const template = node.fields.template;
+        let templatePath = path.resolve(__dirname, 'src', 'templates', node.fields.template, 'index.js');
+
+        if (templates[template]) {
+          templatePath = templates[template];
+        } else if (fs.existsSync(templatePath)) {
+          templates[template] = templatePath;
+        } else {
+          templatePath = templates.default;
+        }
+
         createPage({
           path: node.fields.slug,
-          component: path.resolve(__dirname, 'src', 'templates', node.fields.template, 'index.js'),
+          component: templatePath,
           context: node.fields
         });
       });
