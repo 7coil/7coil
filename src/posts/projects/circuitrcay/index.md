@@ -10,6 +10,7 @@ links:
     link: https://github.com/7coil/circuitrcay-flutter/releases
 image: ./balance.png
 date: 2019-11-22 01:15:48+00
+homepage: true
 ---
 
 At the University, laundry machines are operated by Circuit Managed Laundry Systems.

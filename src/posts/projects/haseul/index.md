@@ -10,6 +10,7 @@ links:
     link: https://www.npmjs.com/package/haseul
 image: ./somecode.png
 date: 2019-06-04 16:39:31
+homepage: true
 ---
 
 HaSeul is a command handling engine designed to be portable (not just supporting Eris.js) and easy to work with.

@@ -70,6 +70,11 @@ export const query = graphql`
             eq: "projects"
           }
         }
+        frontmatter: {
+          homepage: {
+            eq: true
+          }
+        }
       },
       sort: {
         order: DESC,

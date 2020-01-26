@@ -10,6 +10,7 @@ links:
     link: https://discordblocks.leondrolio.com/
 image: ./example.png
 date: 2017-05-10 22:06:24+00
+homepage: true
 ---
 
 DiscordBlocks is a block based programming language for Discord.
