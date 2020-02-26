@@ -12,3 +12,6 @@ https://www.moustacheminer.com/* https://leondrolio.com/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://moustacheminer.netlify.com/* https://leondrolio.com/:splat 301!
+
+# Add an external API
+/api/circuitrcay https://phoneadmin.flashcashonline.com/:splat 200!
