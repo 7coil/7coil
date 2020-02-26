@@ -14,4 +14,4 @@ https://www.moustacheminer.com/* https://leondrolio.com/:splat 301!
 https://moustacheminer.netlify.com/* https://leondrolio.com/:splat 301!
 
 # Add an external API
-/api/circuitrcay https://phoneadmin.flashcashonline.com/:splat 200!
+/api/circuitrcay/* https://phoneadmin.flashcashonline.com/:splat 200!
