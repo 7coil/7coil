@@ -77,8 +77,11 @@
     .description {
       flex-grow: 1;
     }
-    .created {
+    .edited {
       font-size: 10pt;
+      display: flex;
+      gap: 1em;
+      grid-gap: 1em;
     }
     .links {
       margin-left: auto;

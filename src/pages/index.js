@@ -33,8 +33,9 @@ const IndexPage = ({ data }) => (
             <div className={styles.card} key={page.fields.slug}>
               <h3 className={styles.title}>{page.frontmatter.title}</h3>
               <p className={styles.description}>{page.frontmatter.description}</p>
-              <p className={styles.created}>
+              <p className={styles.edited}>
                 <span>Created {page.frontmatter.date}</span>
+                {page.frontmatter.edited && <span>Edited {page.frontmatter.edited}</span>}
               </p>
               {
                 page.frontmatter.image && 
@@ -91,6 +92,7 @@ export const query = graphql`
             title
             description
             date(formatString: "Do MMMM YYYY")
+            edited(formatString: "Do MMMM YYYY")
             links {
               name
               link
