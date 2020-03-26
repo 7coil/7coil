@@ -7,7 +7,7 @@ links:
     link: https://github.com/7coil/circuitrcay-flutter
   - key: website
     name: Web Application
-    link: /circuitrcay
+    link: https://app.circuitrcay.com/
   - key: download
     name: Android APK
     link: https://github.com/7coil/circuitrcay-flutter/releases
