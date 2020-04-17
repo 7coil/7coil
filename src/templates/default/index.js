@@ -20,6 +20,12 @@ export default function Template({
       />
       <PaddingContainer>
         <p>{fields.slug.replace(/\//g, ' / ')}</p>
+        <h2>Links</h2>
+        { frontmatter.links && (
+          <ul>
+            {frontmatter.links.map(link => <li key={link.key}><a href={link.link}>{link.name}</a></li>)}
+          </ul>
+        ) }
         <h1>{frontmatter.title}</h1>
         <div className={styles.content}>
           <MDXRenderer>{body}</MDXRenderer>
@@ -38,6 +44,11 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        links {
+          key
+          name
+          link
+        }
         image {
           childImageSharp {
             fluid {
