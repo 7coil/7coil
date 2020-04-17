@@ -8,6 +8,9 @@ links:
   - key: npm
     name: Node Package Manager
     link: https://www.npmjs.com/package/haseul
+  - key: docs
+    name: Documentation
+    link: https://haseul.leondrolio.com/
 image: ./somecode.png
 date: 2019-06-04 16:39:31
 homepage: true
