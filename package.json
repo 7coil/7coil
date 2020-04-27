@@ -3,7 +3,7 @@
   "private": true,
   "description": "Random Programming Adventures",
   "version": "0.1.0",
-  "author": "Leondro Lio <admin@moustacheminer.com>",
+  "author": "Leondro Lio <github@leondrolio.com>",
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
@@ -21,11 +21,11 @@
     "gatsby-remark-images": "^3.1.35",
     "gatsby-source-filesystem": "^2.1.40",
     "gatsby-transformer-sharp": "^2.3.6",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.14.0",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
