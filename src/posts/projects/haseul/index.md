@@ -13,9 +13,10 @@ links:
     link: https://haseul.leondrolio.com/
 image: ./somecode.png
 date: 2019-06-04 16:39:31
+edited: 2020-04-27 19:16:36+01
 homepage: true
 ---
 
-HaSeul is a command handling engine designed to be portable (not just supporting Eris.js) and easy to work with.
+HaSeul is a command handler, inspired by the ExpressJS middleware and routing engine for parsing commands for chat bots.
 
-![](somecode.png)
+Learn more at https://haseul.leondrolio.com/
