@@ -14,7 +14,7 @@ links:
 image: ./balance.png
 date: 2019-11-22 01:15:48+00
 edited: 2020-02-26 08:29:35+00
-homepage: true
+homepage: false
 ---
 
 CircuitRCAY is a third party application for controlling laundry controlled by Greenwald Industries (still using the legacy `phoneadmin.flashcashonline.com` API which Circuit uses).
