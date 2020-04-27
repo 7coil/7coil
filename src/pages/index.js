@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => (
         <Header />
         <div className={styles.content}>
           <h1>leondrolio.com</h1>
-          <p>Random Programming Adventures</p>
+          {/* <p>Random Programming Adventures</p> */}
         </div>
       </div>
       <iframe
