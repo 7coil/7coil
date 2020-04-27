@@ -1,6 +1,44 @@
+@font-face {
+  font-family: 'Transport New';
+  src: url('https://fonts.leondrolio.com/TransportNew-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Transport New';
+  src: url('https://fonts.leondrolio.com/TransportNew-Light.ttf');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'Transport New';
+  src: url('https://fonts.leondrolio.com/TransportNew-Heavy.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Transport New';
+  src: url('https://fonts.leondrolio.com/TransportNew-Medium.ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Transport New';
+  src: url('https://fonts.leondrolio.com/TransportNew-LightItalic.ttf');
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Transport New';
+  src: url('https://fonts.leondrolio.com/TransportNew-HeavyItalic.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Transport New', Arial, Helvetica, sans-serif;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
 .body {
