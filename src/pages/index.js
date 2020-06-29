@@ -12,7 +12,7 @@ const IndexPage = ({ data }) => (
       <div className={styles.videoContentContainer}>
         <Header />
         <div className={styles.content}>
-          <span className={styles.pageTitle}>leondrolio.com</span>
+          <span className={styles.pageTitle}>Leondro Lio</span>
           {/* <p>Random Programming Adventures</p> */}
         </div>
       </div>
