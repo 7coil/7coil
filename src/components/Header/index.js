@@ -6,7 +6,9 @@ import { Link } from 'gatsby';
 const Header = () => (
   <header className={styles.header}>
     <PaddingContainer>
-      <h1><Link to="/">leondrolio.com</Link></h1>
+      <Link to="/">
+        <span className={styles.title}>leondrolio.com</span>
+      </Link>
     </PaddingContainer>
   </header>
 );

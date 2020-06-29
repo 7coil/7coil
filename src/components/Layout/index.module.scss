@@ -35,10 +35,22 @@
   font-style: italic;
 }
 
+@import 'config';
+
 body {
   margin: 0;
   font-family: 'Transport New', Arial, Helvetica, sans-serif;
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-decoration: underline;
+  text-decoration-color: $secondary-colour;
+  text-decoration-thickness: 0.2em;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 0.3em;
+  border-bottom: 0.4em;
+  padding-bottom: 0.4em;;
 }
 
 .body {

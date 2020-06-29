@@ -13,6 +13,7 @@ links:
     link: https://discordapp.com/api/oauth2/authorize?client_id=504819339422072834&permissions=0&scope=bot
 date: 2020-01-26 02:34:08
 homepage: true
+image: ./Discord_7KCTvP5Guo.png
 ---
 
 GitTags is a GitHub based Discord Bot, which retrieves tag information from any public GitHub repository.

@@ -1,5 +1,4 @@
-@import 'config';
-
+@import "config";
 
 .videoContainer {
   height: calc(95vw / 16 * 9);
@@ -11,7 +10,7 @@
   overflow: hidden;
   display: flex;
   align-items: center;
-  
+
   .video {
     width: 100vw;
     height: 200vw;
@@ -36,8 +35,9 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
-      h1 {
+      .pageTitle {
         font-size: 8vw;
+        font-weight: bold;
         margin: 0;
       }
       p {
@@ -45,53 +45,56 @@
         word-wrap: break-word;
         margin: 0;
       }
-
     }
   }
 }
 
-
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
   @include onMobile {
     grid-template-columns: 1fr;
   }
+
   .card {
     background-color: lightgrey;
-    border-radius: $border-radius;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    transition: 0.2s;
+
     @include hoverShadow(1);
-    .description {
-      margin: 0;
+
+    .cardImage {
+      @include hoverBrightness(30%);
+      transition: 0.2s;
     }
-    .title {
-      margin-top: 0;
-    }
-    .links {
-      margin-bottom: 0;
-    }
-    .description {
-      flex-grow: 1;
-    }
-    .edited {
-      font-size: 10pt;
+
+    .cardContent {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      padding: 0 0.5em;
       display: flex;
-      gap: 1em;
-      grid-gap: 1em;
+      pointer-events: none;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      @include linkColour(white);
     }
-    .links {
-      margin-left: auto;
-      display: flex;
-      flex-wrap: wrap;
-      a {
-        display: block;
-        margin-left: 1em;
-        white-space: nowrap;
-        text-align: right;
+
+    .cardTitle {
+      opacity: 0;
+      transition: 0.2s;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    &:hover {
+      .cardTitle {
+        opacity: 1;
       }
     }
   }

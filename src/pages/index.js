@@ -12,7 +12,7 @@ const IndexPage = ({ data }) => (
       <div className={styles.videoContentContainer}>
         <Header />
         <div className={styles.content}>
-          <h1>leondrolio.com</h1>
+          <span className={styles.pageTitle}>leondrolio.com</span>
           {/* <p>Random Programming Adventures</p> */}
         </div>
       </div>
@@ -27,36 +27,27 @@ const IndexPage = ({ data }) => (
     <PaddingContainer>
       <h1>Projects</h1>
       <div className={styles.cards}>
-        {data.allMdx.edges.map((edge) => {
-          const page = edge.node;
-          return (
-            <div className={styles.card} key={page.fields.slug}>
-              <h3 className={styles.title}>{page.frontmatter.title}</h3>
-              <p className={styles.description}>{page.frontmatter.description}</p>
-              <p className={styles.edited}>
-                <span>Created {page.frontmatter.date}</span>
-                {page.frontmatter.edited && <span>Edited {page.frontmatter.edited}</span>}
-              </p>
-              {
-                page.frontmatter.image && 
-                <Link to={page.fields.slug}>
-                  <Img fluid={page.frontmatter.image.childImageSharp.fluid} />
+        {
+          data.allMdx.edges
+            .map(edge => edge.node)
+            .filter(page => page.frontmatter.image) // Make sure pages have images
+            .map((page, index) => {
+              const link = page.frontmatter.redirect || page.fields.slug
+              return (
+                <Link to={link} key={index}>
+                  <div className={styles.card}>
+                    {
+                      page.frontmatter.image &&
+                      <Img className={styles.cardImage} fluid={page.frontmatter.image.childImageSharp.fluid} />
+                    }
+                    <div className={styles.cardContent}>
+                      <span className={styles.cardTitle}>{page.frontmatter.title}</span>
+                    </div>
+                  </div>
                 </Link>
-              }
-              <p className={styles.links}>
-                {
-                  page.frontmatter.links
-                    .map(({ link, name, key }) => {
-                      return (
-                        <a key={key} href={link}>{name}</a>
-                      )
-                    })
-                }
-                <Link to={page.fields.slug}>Project Page</Link>
-              </p>
-            </div>
-          )
-        })}
+              )
+            })
+        }
       </div>
     </PaddingContainer>
   </Layout>
@@ -90,17 +81,10 @@ export const query = graphql`
           }
           frontmatter {
             title
-            description
-            date(formatString: "Do MMMM YYYY")
-            edited(formatString: "Do MMMM YYYY")
-            links {
-              name
-              link
-              key
-            }
+            redirect
             image {
               childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 300, cropFocus: ENTROPY) {
+                fluid(maxWidth: 800, maxHeight: 500, cropFocus: ENTROPY) {
                   ...GatsbyImageSharpFluid
                 }
               }
