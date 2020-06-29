@@ -8,14 +8,14 @@ links:
   - key: website
     name: Windows Application
     link: https://github.com/Terminal/DiscordForOffice/releases/tag/1.0.3
-image: ./embed.png
+image: ./Discord_BPfGSQ10Ev.png
 date: 2017-05-10 22:06:24+00
 homepage: true
 ---
 
-DiscordForOffice is a family of Microsoft Office 2013, 2016 and 2019 COM extensions which display rich information about what is happening in the application.
+DiscordForOffice is a family of extensions for the Microsoft Office suite, which display information extracted from the program to your friends on Discord.
 
-![](./embed.png)
+![A screenshot of an example embed that may be displayed on your Discord profile.](./Discord_QUpmLv9epn.png)
 
 Supported Office Applications:
 - Microsoft Word
@@ -31,17 +31,30 @@ Not Supported Applications:
 
 ## Installation
 ### Step 1: Add `office.terminal.ink` to your trusted internet sites
-This sounds super weird and sketchy, but it is required for the VSTO installer to work.
-This is because you are running unsigned code.
+To ensure untrusted applications from being executed on your computer,
+Microsoft do not allow the installation of applications not signed for,
+or not in your "Trusted Internet Sites" list.
+
+To add our link to your list:
+- Open Internet Options in the Start Menu
+- Enter the Security tab
+- Click on Trusted Sites
+- Click on Sites
+- Add `https://office.terminal.ink` to the list of trusted sites
 
 ### Step 2: Download and install DiscordForOffice
-[Downloads](https://github.com/Terminal/DiscordForOffice/releases)
+Find downloads in our [GitHub Releases](https://github.com/Terminal/DiscordForOffice/releases) page.
+
+## Issues
+### 2016/2019 Differentiation
+The version number of Microsoft Office 2016 and 2019 are shared, and not different like past versions of Office.
+There is currently no differentiation in the software as a result.
 
 ## Licence
 ```
 MIT License
 
-Copyright (c) 2019 Leondro Lio
+Copyright (c) 2020 Leondro Lio
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -61,9 +74,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
-## 2016 or 2019?
-In the 2019 edition of Microsoft Office, Microsoft kept the major version number of Office at 16, instead of incrementing to 17.
-This is a minor problem which makes it difficult to differentiate between Office 2016 and 2019.
-
-A solution is yet to be found.

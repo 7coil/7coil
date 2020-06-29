@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from '../../components/Layout';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import styles from './index.module.scss';
@@ -27,6 +27,12 @@ export default function Template({
           </ul>
         ) }
         <h1>{frontmatter.title}</h1>
+        {
+          frontmatter.redirect &&
+          <>
+            <p>This page has been redirected to: <Link to={frontmatter.redirect}>{frontmatter.redirect}</Link></p>
+          </>
+        }
         <div className={styles.content}>
           <MDXRenderer>{body}</MDXRenderer>
         </div>
@@ -44,6 +50,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        redirect
         links {
           key
           name
