@@ -3,7 +3,7 @@ import styles from './index.module.scss';
 import PaddingContainer from '../../../../components/PaddingContainer';
 import CombineStyles from '../../../../helpers/CombineStyles';
 
-interface Point {
+interface Vector {
   x: number,
   y: number,
 }
@@ -19,13 +19,24 @@ enum Tool {
   RUBBER = 'Rubber',
 }
 
-class TerminalPaint extends Component<{}, { width: number, height: number, scaleX: number, scaleY: number, primaryColour: Colour, secondaryColour: Colour, tool: Tool, exportedValue: string }> {
+class TerminalPaint extends Component<{}, {
+  width: number,
+  height: number,
+  scaleX: number,
+  scaleY: number,
+  brushWidth: number,
+  brushHeight: number,
+  primaryColour: Colour,
+  secondaryColour: Colour,
+  tool: Tool,
+  exportedValue: string
+}> {
   canvas = React.createRef<HTMLCanvasElement>()
   tempCanvas = React.createRef<HTMLCanvasElement>()
   ctx: CanvasRenderingContext2D
   tempCtx: CanvasRenderingContext2D
   painting: boolean
-  previousPoint: Point
+  previousPoint: Vector
 
   constructor(props) {
     super(props);
@@ -46,6 +57,8 @@ class TerminalPaint extends Component<{}, { width: number, height: number, scale
       height: 40,
       scaleX: 8,
       scaleY: 16,
+      brushWidth: 1,
+      brushHeight: 1,
       primaryColour: { r: 0, g: 0, b: 0 },
       secondaryColour: { r: 255, g: 255, b: 255 },
       tool: Tool.PEN,
@@ -129,12 +142,14 @@ class TerminalPaint extends Component<{}, { width: number, height: number, scale
     if (this.tempCanvas.current.height === 0) return;
     this.ctx.drawImage(this.tempCanvas.current, 0, 0)
   }
-  drawPoint({ x, y }: Point) {
-    console.log(x, y)
+  drawPoint({ x, y }: Vector) {
+    x -= Math.floor(this.state.brushWidth / 2)
+    y -= Math.floor(this.state.brushHeight / 2)
+
     if (this.state.tool === Tool.PEN) {
-      this.ctx.fillRect(x, y, 1, 1)
+      this.ctx.fillRect(x, y, this.state.brushWidth, this.state.brushHeight)
     } else if (this.state.tool === Tool.RUBBER) {
-      this.ctx.clearRect(x, y, 1, 1)
+      this.ctx.clearRect(x, y, this.state.brushWidth, this.state.brushHeight)
     }
   }
   getCanvasCoordFromPointer(e: React.MouseEvent<HTMLCanvasElement, MouseEvent>) {
@@ -181,6 +196,14 @@ class TerminalPaint extends Component<{}, { width: number, height: number, scale
       this.setState({
         scaleY: Math.max(1, parseInt(value, 10))
       })
+    } else if (name === 'brushWidth') {
+      this.setState({
+        brushWidth: Math.max(1, parseInt(value, 10))
+      })
+    } else if (name === 'brushHeight') {
+      this.setState({
+        brushHeight: Math.max(1, parseInt(value, 10))
+      })
     } else if (name === 'width') {
       this.tempSave()
       this.setState({
@@ -196,8 +219,10 @@ class TerminalPaint extends Component<{}, { width: number, height: number, scale
         this.tempRestore()
       })
     } else if (name === 'tool') {
+      const tool = value as Tool
+
       this.setState({
-        tool: value
+        tool
       })
     }
   }
@@ -221,6 +246,14 @@ class TerminalPaint extends Component<{}, { width: number, height: number, scale
           <div>
             <input name="height" type="number" step="1" min="1" max="2048" value={this.state.height} onChange={this.handleInputChange}></input>
             <label htmlFor="height">Height of canvas (in characters)</label>
+          </div>
+          <div>
+            <input name="brushWidth" type="number" step="1" min="1" max="2048" value={this.state.brushWidth} onChange={this.handleInputChange}></input>
+            <label htmlFor="brushWidth">Width of brush (in characters)</label>
+          </div>
+          <div>
+            <input name="brushHeight" type="number" step="1" min="1" max="2048" value={this.state.brushHeight} onChange={this.handleInputChange}></input>
+            <label htmlFor="brushHeight">Height of brush (in characters)</label>
           </div>
         </div>
         <h2>Colours</h2>
