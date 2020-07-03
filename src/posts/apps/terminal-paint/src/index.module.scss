@@ -1,0 +1,40 @@
+.canvas {
+  background-image: url('./transparency.png');
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.tempCanvas {
+  display: none;
+}
+
+.selectedColours {
+  position: relative;
+  width: 6em;
+  height: 6em;
+  box-sizing: border-box;
+
+  .selectedPrimaryColour, .selectedSecondaryColour {
+    width: 5em;
+    height: 5em;
+    border-style: solid;
+    border-color: grey;
+  }
+
+  .selectedPrimaryColour {
+    position: absolute;
+    top: 1em;
+  }
+
+  .selectedSecondaryColour {
+    position: absolute;
+    left: 1em;
+  }
+}
+
+.exportedValue {
+  width: 100%;
+  height: 400px;
+}

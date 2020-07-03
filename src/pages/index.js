@@ -59,7 +59,7 @@ export const query = graphql`
       filter: {
         fields: {
           template: {
-            eq: "projects"
+            in: ["projects", "apps"]
           }
         }
         frontmatter: {
