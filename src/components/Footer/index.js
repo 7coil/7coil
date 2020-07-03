@@ -29,7 +29,7 @@ class Footer extends Component {
             {
               song &&
               <p>
-                You should probably listen to <b>{song.name}</b> by <b>{song.artist}</b> in {!song.album.toLowerCase().startsWith('the') && 'the '}<b>{song.album}</b>{!song.album.toLowerCase().endsWith('album') && ' album'}.
+                You should probably listen to <a href={song.uri.replace('spotify:track:', 'https://open.spotify.com/track/')} target="_blank"><b>{song.name}</b></a> by <b>{song.artist}</b> in {!song.album.toLowerCase().startsWith('the') && 'the '}<b>{song.album}</b>{!song.album.toLowerCase().endsWith('album') && ' album'}.
               </p>
             }
             <p>

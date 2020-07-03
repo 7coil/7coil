@@ -1,878 +1,893 @@
 [
   {
-    "name": "Heart Attack (츄)",
-    "artist": "LOONA",
-    "album": "Chuu",
-    "added": "2019-04-10T22:30:20Z"
+    "uri": "spotify:track:2rFRa1eJ8RqlINbJCZwdtt",
+    "name": "Glass Bead",
+    "artist": "GFRIEND",
+    "album": "GFRIEND 1st Mini Album 'Season Of Glass'",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 203482,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:12:18Z"
   },
   {
-    "name": "Ah-Choo",
-    "artist": "Lovelyz",
-    "album": "Lovelyz8",
-    "added": "2019-06-01T16:16:45Z"
-  },
-  {
-    "name": "Kiss Later",
-    "artist": "LOONA",
-    "album": "YeoJin",
-    "added": "2019-04-13T00:21:12Z"
-  },
-  {
-    "name": "Let Me In",
-    "artist": "LOONA",
-    "album": "HaSeul",
-    "added": "2019-04-13T00:17:08Z"
-  },
-  {
-    "name": "Love & Live",
-    "artist": "LOOΠΔ 1/3",
-    "album": "Love & Evil",
-    "added": "2019-04-10T10:06:00Z"
-  },
-  {
-    "name": "Sonatine",
-    "artist": "LOOΠΔ 1/3",
-    "album": "Love & Evil",
-    "added": "2019-06-28T13:12:23Z"
-  },
-  {
-    "name": "Love Cherry Motion",
-    "artist": "LOONA",
-    "album": "Choerry",
-    "added": "2019-05-18T16:21:12Z"
-  },
-  {
-    "name": "Singing in the Rain",
-    "artist": "LOONA",
-    "album": "JinSoul",
-    "added": "2019-06-29T11:28:25Z"
-  },
-  {
-    "name": "You and Me Together",
-    "artist": "LOOΠΔ 1/3",
-    "album": "Love & Evil",
-    "added": "2019-09-14T13:28:17Z"
-  },
-  {
-    "name": "Very Very Very",
-    "artist": "I.O.I",
-    "album": "miss me?",
-    "added": "2019-03-18T23:03:48Z"
-  },
-  {
-    "name": "Really Really",
-    "artist": "Cherry Bullet",
-    "album": "LOVE ADVENTURE",
-    "added": "2019-05-27T22:01:38Z"
-  },
-  {
-    "name": "Q&A",
-    "artist": "Cherry Bullet",
-    "album": "Cherry Bullet 1st Single Album Let's Play Cherry Bullet",
-    "added": "2019-03-19T15:59:56Z"
-  },
-  {
-    "name": "Ping Pong",
-    "artist": "Cherry Bullet",
-    "album": "LOVE ADVENTURE",
-    "added": "2019-05-27T22:08:34Z"
-  },
-  {
-    "name": "VIOLET",
-    "artist": "Cherry Bullet",
-    "album": "Cherry Bullet 1st Single Album Let's Play Cherry Bullet",
-    "added": "2019-05-22T13:59:20Z"
-  },
-  {
-    "name": "LOONATIC Eng. Ver.",
-    "artist": "LOOΠΔ / ODD EYE CIRCLE",
-    "album": "LOONATIC Eng. Ver.",
-    "added": "2019-05-28T14:47:38Z"
-  },
-  {
-    "name": "Butterfly",
-    "artist": "LOONA",
-    "album": "[X X]",
-    "added": "2019-03-18T18:35:05Z"
-  },
-  {
-    "name": "favOriTe",
-    "artist": "LOONA",
-    "album": "[+ +]",
-    "added": "2019-03-18T18:34:56Z"
-  },
-  {
-    "name": "love4eva (feat. Grimes)",
-    "artist": "이달의 소녀 yyxy",
-    "album": "beauty&thebeat",
-    "added": "2019-04-10T22:30:18Z"
-  },
-  {
-    "name": "Hi High",
-    "artist": "LOONA",
-    "album": "[+ +]",
-    "added": "2019-03-18T18:34:56Z"
-  },
-  {
-    "name": "HAPPY",
-    "artist": "WJSN",
-    "album": "HAPPY MOMENT",
-    "added": "2019-05-06T15:51:17Z"
-  },
-  {
-    "name": "Boogie Up",
-    "artist": "WJSN",
-    "album": "SPECIAL ALBUM <For the Summer>",
-    "added": "2019-06-06T16:46:21Z"
-  },
-  {
-    "name": "Secret",
-    "artist": "WJSN",
-    "album": "THE SECRET",
-    "added": "2019-04-09T00:45:33Z"
-  },
-  {
-    "name": "La La Love",
-    "artist": "WJSN",
-    "album": "WJ STAY?",
-    "added": "2019-06-12T18:56:37Z"
-  },
-  {
-    "name": "Save Me, Save You",
-    "artist": "WJSN",
-    "album": "WJ PLEASE?",
-    "added": "2019-06-28T13:12:26Z"
-  },
-  {
-    "name": "As You Wish",
-    "artist": "WJSN",
-    "album": "As You Wish",
-    "added": "2019-11-21T17:53:50Z"
-  },
-  {
-    "name": "Violeta",
-    "artist": "IZ*ONE",
-    "album": "HEART*IZ",
-    "added": "2019-04-01T20:47:40Z"
-  },
-  {
-    "name": "Blue Orangeade",
-    "artist": "TOMORROW X TOGETHER",
-    "album": "The Dream Chapter: STAR",
-    "added": "2019-03-24T17:42:52Z"
-  },
-  {
-    "name": "Banana allergy monkey",
-    "artist": "OH MY GIRL BANHANA",
-    "album": "BANANA ALLERGY MONKEY",
-    "added": "2019-05-29T15:13:11Z"
-  },
-  {
-    "name": "La Vie en Rose",
-    "artist": "IZ*ONE",
-    "album": "COLOR*IZ",
-    "added": "2019-06-07T14:31:23Z"
-  },
-  {
-    "name": "Oh! my mistake",
-    "artist": "APRIL",
-    "album": "APRIL 6th Mini Album 'the Ruby'",
-    "added": "2019-05-18T16:26:33Z"
-  },
-  {
-    "name": "열기",
-    "artist": "LOONA",
-    "album": "[+ +]",
-    "added": "2019-03-18T18:34:56Z"
-  },
-  {
-    "name": "Perfect Love",
-    "artist": "LOONA",
-    "album": "[+ +]",
-    "added": "2019-03-18T18:34:56Z"
-  },
-  {
+    "uri": "spotify:track:6x7fux7bZEfnChKx3nhSZn",
     "name": "Me Gustas Tu",
     "artist": "GFRIEND",
     "album": "GFRIEND 2nd Mini Album 'Flower Bud'",
-    "added": "2019-03-18T19:00:49Z"
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 220745,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:12:23Z"
   },
   {
-    "name": "달라달라 (DALLA DALLA)",
-    "artist": "ITZY",
-    "album": "IT'z Different",
-    "added": "2019-03-18T20:19:11Z"
-  },
-  {
-    "name": "Power Up",
-    "artist": "Red Velvet",
-    "album": "Summer Magic - Summer Mini Album",
-    "added": "2019-03-18T23:04:26Z"
-  },
-  {
-    "name": "Blue Lemonade",
-    "artist": "Red Velvet",
-    "album": "Summer Magic - Summer Mini Album",
-    "added": "2019-06-12T19:53:44Z"
-  },
-  {
-    "name": "4 Walls",
-    "artist": "f(x)",
-    "album": "4 Walls - The 4th Album",
-    "added": "2019-04-18T14:31:31Z"
-  },
-  {
-    "name": "제트별 (Jet)",
-    "artist": "f(x)",
-    "album": "The 2nd Mini Album 'Electric Shock'",
-    "added": "2019-04-18T17:06:01Z"
-  },
-  {
-    "name": "Electric Shock",
-    "artist": "f(x)",
-    "album": "The 2nd Mini Album 'Electric Shock'",
-    "added": "2019-04-18T17:06:17Z"
-  },
-  {
-    "name": "FUN!",
-    "artist": "fromis_9",
-    "album": "FUN FACTORY",
-    "added": "2019-06-06T16:43:40Z"
-  },
-  {
-    "name": "LOVE BOMB",
-    "artist": "fromis_9",
-    "album": "From.9",
-    "added": "2019-03-22T00:33:13Z"
-  },
-  {
-    "name": "BDZ (Korean Ver.)",
-    "artist": "TWICE",
-    "album": "The year of \"YES",
-    "added": "2019-07-12T12:45:45Z"
-  },
-  {
-    "name": "BDZ",
-    "artist": "TWICE",
-    "album": "The year of \"YES",
-    "added": "2020-03-25T02:30:38Z"
-  },
-  {
-    "name": "KNOCK KNOCK",
-    "artist": "TWICE",
-    "album": "TWICEcoaster : LANE 2",
-    "added": "2019-11-01T11:17:55Z"
-  },
-  {
-    "name": "What is Love?",
-    "artist": "TWICE",
-    "album": "What is Love?",
-    "added": "2019-04-14T13:30:14Z"
-  },
-  {
-    "name": "LIKEY",
-    "artist": "TWICE",
-    "album": "twicetagram",
-    "added": "2019-06-12T19:06:58Z"
-  },
-  {
-    "name": "Heart Shaker",
-    "artist": "TWICE",
-    "album": "Merry & Happy",
-    "added": "2019-07-05T10:46:51Z"
-  },
-  {
-    "name": "YES or YES",
-    "artist": "TWICE",
-    "album": "YES or YES",
-    "added": "2019-03-19T18:42:01Z"
-  },
-  {
-    "name": "Dance The Night Away",
-    "artist": "TWICE",
-    "album": "Summer Nights",
-    "added": "2019-03-19T18:42:09Z"
-  },
-  {
-    "name": "TT",
-    "artist": "TWICE",
-    "album": "TWICEcoaster: LANE1",
-    "added": "2019-04-14T19:41:47Z"
-  },
-  {
-    "name": "new",
-    "artist": "LOONA",
-    "album": "Yves",
-    "added": "2019-05-28T00:54:41Z"
-  },
-  {
-    "name": "I’ll be There",
-    "artist": "LOONA",
-    "album": "HyunJin",
-    "added": "2019-04-13T00:21:29Z"
-  },
-  {
-    "name": "One & Only (Go Won)",
-    "artist": "LOONA",
-    "album": "Go Won",
-    "added": "2019-04-13T00:31:44Z"
-  },
-  {
-    "name": "Everyday I Love You (feat. HaSeul)",
-    "artist": "LOONA HaSeul",
-    "album": "ViVi",
-    "added": "2019-04-13T00:32:01Z"
-  },
-  {
-    "name": "Love Letter",
-    "artist": "LOONA",
-    "album": "JinSoul",
-    "added": "2019-05-01T00:49:19Z"
-  },
-  {
-    "name": "Around You",
-    "artist": "LOONA",
-    "album": "HyunJin",
-    "added": "2019-05-01T00:49:25Z"
-  },
-  {
-    "name": "Girl Front",
-    "artist": "LOOΠΔ / ODD EYE CIRCLE",
-    "album": "Max & Match",
-    "added": "2019-06-28T13:12:23Z"
-  },
-  {
-    "name": "Egoist (Olivia Hye) (Feat. JinSoul)",
-    "artist": "LOONA",
-    "album": "Olivia Hye",
-    "added": "2019-06-28T13:12:26Z"
-  },
-  {
-    "name": "Eclipse (Prod. By Daniel Obi Klein)",
-    "artist": "LOONA",
-    "album": "Kim Lip",
-    "added": "2019-06-28T13:12:31Z"
-  },
-  {
-    "name": "Sunrise",
-    "artist": "GFRIEND",
-    "album": "GFRIEND The 2nd Album 'Time for us'",
-    "added": "2019-04-17T01:31:46Z"
-  },
-  {
-    "name": "BBoom BBoom",
-    "artist": "MOMOLAND",
-    "album": "GREAT!",
-    "added": "2019-05-01T00:49:23Z"
-  },
-  {
-    "name": "COLORING",
-    "artist": "fromis_9",
-    "album": "From.9",
-    "added": "2019-05-19T11:00:19Z"
-  },
-  {
-    "name": "Into You",
-    "artist": "YURI (Girls’ Generation)",
-    "album": "The First Scene - The 1st Mini Album",
-    "added": "2019-06-12T19:03:52Z"
-  },
-  {
-    "name": "Bon Bon Chocolat",
-    "artist": "EVERGLOW",
-    "album": "ARRIVAL OF EVERGLOW",
-    "added": "2019-06-12T19:36:13Z"
-  },
-  {
-    "name": "피카부 Peek-A-Boo",
-    "artist": "Red Velvet",
-    "album": "Perfect Velvet - The 2nd Album",
-    "added": "2019-06-28T13:12:30Z"
-  },
-  {
-    "name": "PITAPAT (DKDK)",
-    "artist": "fromis_9",
-    "album": "To. Day",
-    "added": "2019-06-28T13:13:10Z"
-  },
-  {
-    "name": "Bad Boy",
-    "artist": "Red Velvet",
-    "album": "The Perfect Red Velvet - The 2nd Album Repackage",
-    "added": "2019-06-29T11:28:30Z"
-  },
-  {
-    "name": "Sweet Crazy Love",
-    "artist": "LOOΠΔ / ODD EYE CIRCLE",
-    "album": "Max & Match",
-    "added": "2019-06-29T11:28:36Z"
-  },
-  {
-    "name": "CROWN",
-    "artist": "TOMORROW X TOGETHER",
-    "album": "The Dream Chapter: STAR",
-    "added": "2019-06-30T11:04:22Z"
-  },
-  {
-    "name": "OH MY SUMMER",
-    "artist": "WJSN",
-    "album": "SPECIAL ALBUM <For the Summer>",
-    "added": "2019-06-30T11:32:23Z"
-  },
-  {
-    "name": "SIGNAL",
-    "artist": "TWICE",
-    "album": "SIGNAL",
-    "added": "2019-06-30T11:44:19Z"
-  },
-  {
-    "name": "frozen",
-    "artist": "이달의 소녀 yyxy",
-    "album": "beauty&thebeat",
-    "added": "2019-06-30T11:47:37Z"
-  },
-  {
-    "name": "22CENTURY GIRL",
-    "artist": "fromis_9",
-    "album": "To. Day",
-    "added": "2019-06-30T11:47:43Z"
-  },
-  {
-    "name": "Dreams Come True",
-    "artist": "WJSN",
-    "album": "Dream your dream",
-    "added": "2019-06-30T11:47:53Z"
-  },
-  {
-    "name": "FANCY",
-    "artist": "TWICE",
-    "album": "FANCY YOU",
-    "added": "2019-06-30T11:48:00Z"
-  },
-  {
-    "name": "Love Bug",
-    "artist": "GFRIEND",
-    "album": "GFRIEND The 6th Mini Album 'Time for the moon night'",
-    "added": "2019-06-30T11:48:51Z"
-  },
-  {
-    "name": "ViViD",
-    "artist": "LOONA",
-    "album": "HeeJin",
-    "added": "2019-07-01T15:45:13Z"
-  },
-  {
-    "name": "Uncover",
-    "artist": "LOOΠΔ / ODD EYE CIRCLE",
-    "album": "Max & Match",
-    "added": "2019-07-01T15:45:17Z"
-  },
-  {
-    "name": "Rosy (Go Won, Olivia Hye) (Feat. HeeJin)",
-    "artist": "LOONA",
-    "album": "Olivia Hye",
-    "added": "2019-07-01T15:45:19Z"
-  },
-  {
-    "name": "NAVILLERA",
-    "artist": "GFRIEND",
-    "album": "GFRIEND The 1st Album 'LOL'",
-    "added": "2019-07-05T01:57:50Z"
-  },
-  {
-    "name": "frozen",
-    "artist": "이달의 소녀 yyxy",
-    "album": "beauty&thebeat",
-    "added": "2019-07-05T01:57:58Z"
-  },
-  {
-    "name": "Stylish",
-    "artist": "LOONA",
-    "album": "[+ +]",
-    "added": "2019-07-26T14:20:53Z"
-  },
-  {
-    "name": "ICY",
-    "artist": "ITZY",
-    "album": "IT'z ICY",
-    "added": "2019-08-01T01:40:26Z"
-  },
-  {
-    "name": "Satellite",
-    "artist": "LOONA",
-    "album": "[X X]",
-    "added": "2019-08-01T15:51:51Z"
-  },
-  {
-    "name": "To Heart",
-    "artist": "fromis_9",
-    "album": "To. Heart",
-    "added": "2019-08-01T15:51:53Z"
-  },
-  {
-    "name": "빨간 맛 Red Flavor",
-    "artist": "Red Velvet",
-    "album": "The Red Summer - Summer Mini Album",
-    "added": "2019-08-01T15:51:57Z"
-  },
-  {
-    "name": "See Saw (Chuu, Go Won) (Feat. Kim Lip)",
-    "artist": "LOONA",
-    "album": "Go Won",
-    "added": "2019-08-01T15:51:58Z"
-  },
-  {
-    "name": "러시안 룰렛 Russian Roulette",
-    "artist": "Red Velvet",
-    "album": "Russian Roulette - The 3rd Mini Album",
-    "added": "2019-08-01T16:08:10Z"
-  },
-  {
-    "name": "CHEER UP",
-    "artist": "TWICE",
-    "album": "PAGE TWO",
-    "added": "2019-08-04T23:33:29Z"
-  },
-  {
-    "name": "As If It's Your Last",
-    "artist": "BLACKPINK",
-    "album": "As If It's Your Last",
-    "added": "2019-08-05T12:02:06Z"
-  },
-  {
+    "uri": "spotify:track:2jL9sjFc2LZsQBGbQnrjXR",
     "name": "Time for the moon night",
     "artist": "GFRIEND",
     "album": "GFRIEND The 6th Mini Album 'Time for the moon night'",
-    "added": "2019-08-05T12:05:01Z"
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 226698,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:12:33Z"
   },
   {
-    "name": "OOH-AHH하게 Like OOH-AHH",
-    "artist": "TWICE",
-    "album": "THE STORY BEGINS",
-    "added": "2019-08-05T12:20:05Z"
+    "uri": "spotify:track:5KnXbmxjbmXiuSmMclGOIi",
+    "name": "Love Bug",
+    "artist": "GFRIEND",
+    "album": "GFRIEND The 6th Mini Album 'Time for the moon night'",
+    "Disc Number": 1,
+    "Track Number": 3,
+    "Track Duration (ms)": 222451,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:12:35Z"
   },
   {
-    "name": "Glass Shoes (MAMA Ver.)",
-    "artist": "fromis_9",
-    "album": "To. Heart",
-    "added": "2019-08-07T16:03:30Z"
+    "uri": "spotify:track:1e7eOq89QU6vGYCJp9yW2L",
+    "name": "Sunrise",
+    "artist": "GFRIEND",
+    "album": "GFRIEND The 2nd Album 'Time for us'",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 216488,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:13:01Z"
   },
   {
-    "name": "다른 남자 말고 너 Only You",
-    "artist": "miss A",
-    "album": "Colors",
-    "added": "2019-08-08T13:53:29Z"
+    "uri": "spotify:track:3CVeGXpoPKJQ9JuhPp3mpL",
+    "name": "Rough",
+    "artist": "GFRIEND",
+    "album": "SNOWFLAKE",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 209104,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:13:05Z"
   },
   {
-    "name": "Highlight",
-    "artist": "IZ*ONE",
-    "album": "HEART*IZ",
-    "added": "2019-08-08T15:03:33Z"
+    "uri": "spotify:track:2Oi0IO8K4BEbhPUdWcjNmv",
+    "name": "NAVILLERA",
+    "artist": "GFRIEND",
+    "album": "GFRIEND The 1st Album 'LOL'",
+    "Disc Number": 1,
+    "Track Number": 3,
+    "Track Duration (ms)": 193579,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:13:11Z"
   },
   {
-    "name": "Up",
-    "artist": "IZ*ONE",
-    "album": "HEART*IZ",
-    "added": "2019-08-08T15:03:33Z"
+    "uri": "spotify:track:1xwnvVY9gHdo69PuGQkG1U",
+    "name": "LOVE WHISPER",
+    "artist": "GFRIEND",
+    "album": "GFRIEND The 5th Mini Album <PARALLEL>",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 211972,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:13:17Z"
   },
   {
-    "name": "Zimzalabim",
-    "artist": "Red Velvet",
-    "album": "‘The ReVe Festival’ Day 1",
-    "added": "2019-08-09T17:33:01Z"
+    "uri": "spotify:track:2ZG2MBGBeBb6xdAy0Th9F9",
+    "name": "Labyrinth",
+    "artist": "GFRIEND",
+    "album": "回:LABYRINTH",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 201120,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:00:58Z"
   },
   {
-    "name": "Tell Me",
-    "artist": "Wonder Girls",
-    "album": "The Wonder Years",
-    "added": "2019-08-09T23:37:19Z"
+    "uri": "spotify:track:3ZWCWArPYr1v0iF763oSOz",
+    "name": "Crossroads",
+    "artist": "GFRIEND",
+    "album": "回:LABYRINTH",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 202426,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:01:00Z"
   },
   {
-    "name": "JJan! Koong! Kwang!",
-    "artist": "MOMOLAND",
-    "album": "Welcome to MOMOLAND",
-    "added": "2019-08-10T23:42:16Z"
-  },
-  {
-    "name": "LOVE RUMPUMPUM",
-    "artist": "fromis_9",
-    "album": "FUN FACTORY",
-    "added": "2019-08-20T22:56:43Z"
-  },
-  {
-    "name": "Where you at",
+    "uri": "spotify:track:1P2oYaTIBRB4pYL28Ps5Mv",
+    "name": "ViViD",
     "artist": "LOONA",
-    "album": "[X X]",
-    "added": "2019-09-01T21:58:48Z"
+    "album": "HeeJin",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 201537,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:01:45Z"
   },
   {
-    "name": "BAAM",
-    "artist": "MOMOLAND",
-    "album": "Fun to The World",
-    "added": "2019-09-06T14:58:42Z"
-  },
-  {
-    "name": "Gashina",
-    "artist": "SUNMI",
-    "album": "SUNMI SPECIAL EDITION [Gashina]",
-    "added": "2019-09-06T14:58:47Z"
-  },
-  {
-    "name": "Rookie",
-    "artist": "Red Velvet",
-    "album": "Rookie - The 4th Mini Album",
-    "added": "2019-09-06T14:58:50Z"
-  },
-  {
-    "name": "HANN (Alone)",
-    "artist": "(G)I-DLE",
-    "album": "HANN (Alone)",
-    "added": "2019-09-06T14:58:52Z"
-  },
-  {
-    "name": "Dance The Night Away",
-    "artist": "TWICE",
-    "album": "Summer Nights",
-    "added": "2019-09-06T16:01:06Z"
-  },
-  {
-    "name": "Feel Special",
-    "artist": "TWICE",
-    "album": "Feel Special",
-    "added": "2019-11-23T05:04:25Z"
-  },
-  {
-    "name": "LATATA",
-    "artist": "(G)I-DLE",
-    "album": "I am",
-    "added": "2019-10-05T15:28:33Z"
-  },
-  {
-    "name": "Dumb Dumb",
-    "artist": "Red Velvet",
-    "album": "The Red - The 1st Album",
-    "added": "2019-10-05T15:28:36Z"
-  },
-  {
-    "name": "Colors",
+    "uri": "spotify:track:1z1nsNEnhzTfH3CX7fcsaz",
+    "name": "I'll Be There",
     "artist": "LOONA",
-    "album": "[X X]",
-    "added": "2019-10-05T15:28:39Z"
+    "album": "HyunJin",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 188558,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:01:50Z"
   },
   {
-    "name": "Umpah Umpah",
-    "artist": "Red Velvet",
-    "album": "‘The ReVe Festival’ Day 2",
-    "added": "2019-10-06T14:19:18Z"
-  },
-  {
-    "name": "Lil’ Touch",
-    "artist": "Girls' Generation-Oh!GG",
-    "album": "Lil' Touch - The 1st Single",
-    "added": "2019-11-13T22:12:13Z"
-  },
-  {
-    "name": "Uh-Oh",
-    "artist": "(G)I-DLE",
-    "album": "Uh-Oh",
-    "added": "2019-11-23T05:08:22Z"
-  },
-  {
-    "name": "Candy Pop",
-    "artist": "TWICE",
-    "album": "BDZ",
-    "added": "2019-11-23T05:08:29Z"
-  },
-  {
-    "name": "FEVER",
-    "artist": "J.Y. Park SUPERBEE BIBI",
-    "album": "FEVER",
-    "added": "2019-12-03T04:01:54Z"
-  },
-  {
-    "name": "Good day",
-    "artist": "IU",
-    "album": "REAL",
-    "added": "2019-12-20T12:16:28Z"
-  },
-  {
-    "name": "YOU & I (너랑 나)",
-    "artist": "IU",
-    "album": "Last Fantasy",
-    "added": "2019-12-23T20:37:09Z"
-  },
-  {
-    "name": "BBIBBI",
-    "artist": "IU",
-    "album": "BBIBBI",
-    "added": "2019-12-23T20:39:09Z"
-  },
-  {
-    "name": "Blueming",
-    "artist": "IU",
-    "album": "Love poem",
-    "added": "2020-02-19T16:20:52Z"
-  },
-  {
-    "name": "Twenty-Three",
-    "artist": "IU",
-    "album": "CHAT-SHIRE",
-    "added": "2020-03-05T17:13:24Z"
-  },
-  {
-    "name": "Psycho",
-    "artist": "Red Velvet",
-    "album": "‘The ReVe Festival’ Finale",
-    "added": "2019-12-23T20:38:18Z"
-  },
-  {
-    "name": "Secret Garden",
-    "artist": "OH MY GIRL",
-    "album": "SECRET GARDEN",
-    "added": "2020-01-07T21:45:51Z"
-  },
-  {
-    "name": "검은 고양이 네로",
-    "artist": "TURBO",
-    "album": "280KM SPEED",
-    "added": "2020-01-11T21:11:10Z"
-  },
-  {
-    "name": "다시 (feat. 유재석)",
-    "artist": "TURBO Yu Jae Seok",
-    "album": "AGAIN 다시",
-    "added": "2020-01-26T22:36:17Z"
-  },
-  {
-    "name": "뜨거운 설탕 Hot Sugar",
-    "artist": "TURBO",
-    "album": "TURBO SPLASH",
-    "added": "2020-03-16T02:21:52Z"
-  },
-  {
-    "name": "BREAKTHROUGH - Korean Ver.",
-    "artist": "TWICE",
-    "album": "Feel Special",
-    "added": "2020-01-26T02:36:11Z"
-  },
-  {
-    "name": "So What",
+    "uri": "spotify:track:0KsPxLQtEvfb04Sx1pmUsL",
+    "name": "소년, 소녀",
     "artist": "LOONA",
-    "album": "[#]",
-    "added": "2020-02-06T00:10:48Z"
+    "album": "HaSeul",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 187649,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:01:55Z"
   },
   {
-    "name": "Number 1",
+    "uri": "spotify:track:3DGKXLtVjawKFweymvHn84",
+    "name": "키스는 다음에",
     "artist": "LOONA",
-    "album": "[#]",
-    "added": "2020-02-06T00:10:48Z"
+    "album": "YeoJin",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 199754,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:02:00Z"
   },
   {
-    "name": "Oh (Yes I Am)",
+    "uri": "spotify:track:6f1PlxNaKfbbBosoRXmoAF",
+    "name": "My Melody",
     "artist": "LOONA",
-    "album": "[#]",
-    "added": "2020-02-06T00:10:48Z"
+    "album": "YeoJin",
+    "Disc Number": 1,
+    "Track Number": 3,
+    "Track Duration (ms)": 182920,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:02:04Z"
   },
   {
-    "name": "Ding Ding Dong",
+    "uri": "spotify:track:5HGeTj4lVdLGed5c358q1f",
+    "name": "Everyday I Love You",
+    "artist": "LOONA, HaSeul",
+    "album": "ViVi",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 208160,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:02:08Z"
+  },
+  {
+    "uri": "spotify:track:26K21MUaPDTnzHqtiiffFv",
+    "name": "Eclipse",
     "artist": "LOONA",
-    "album": "[#]",
-    "added": "2020-02-06T00:10:48Z"
+    "album": "Kim Lip",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 231237,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:02:13Z"
   },
   {
-    "name": 365,
+    "uri": "spotify:track:1uNTfm5WZVGdig95SAXajH",
+    "name": "Singing in the Rain",
     "artist": "LOONA",
-    "album": "[#]",
-    "added": "2020-02-06T00:10:48Z"
+    "album": "JinSoul",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 211661,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:02:55Z"
   },
   {
-    "name": "Egoist (English Rap Ver.)",
+    "uri": "spotify:track:3GAKRdjL6Snq9C7u5tMC01",
+    "name": "Love Letter",
     "artist": "LOONA",
-    "album": "Orbit 1.0",
-    "added": "2020-02-07T23:22:29Z"
+    "album": "JinSoul",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 188899,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:02:57Z"
   },
   {
-    "name": "PONYTAIL",
-    "artist": "TWICE",
-    "album": "TWICEcoaster: LANE1",
-    "added": "2020-02-26T19:51:33Z"
+    "uri": "spotify:track:1H3i6WXxrJB7LEoH5iStvb",
+    "name": "Love Cherry Motion",
+    "artist": "LOONA",
+    "album": "Choerry",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 221847,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:03:03Z"
   },
   {
-    "name": "1 TO 10",
-    "artist": "TWICE",
-    "album": "TWICEcoaster: LANE1",
-    "added": "2020-02-26T19:51:40Z"
+    "uri": "spotify:track:0Y1oSjd9U7Qy5t7EDjAjPq",
+    "name": "Puzzle",
+    "artist": "LOONA",
+    "album": "Choerry",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 220043,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:03:05Z"
   },
   {
-    "name": "JELLY JELLY",
-    "artist": "TWICE",
-    "album": "TWICEcoaster: LANE1",
-    "added": "2020-02-26T19:51:42Z"
+    "uri": "spotify:track:7eUtsnBNOWfWDObBZyU4F4",
+    "name": "new",
+    "artist": "LOONA",
+    "album": "Yves",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 184527,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:03:09Z"
   },
   {
-    "name": "ONE IN A MILLION",
-    "artist": "TWICE",
-    "album": "TWICEcoaster: LANE1",
-    "added": "2020-02-26T19:51:44Z"
+    "uri": "spotify:track:4ddaY4PJxvq47qIps1KQ6Q",
+    "name": "D-1",
+    "artist": "LOONA",
+    "album": "Yves",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 199387,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:03:11Z"
   },
   {
-    "name": "기대해",
-    "artist": "Girl's Day",
-    "album": "기대",
-    "added": "2020-02-27T10:49:41Z"
+    "uri": "spotify:track:6SSC9KZQaxBdyipKRigrFC",
+    "name": "Heart Attack (츄)",
+    "artist": "LOONA",
+    "album": "Chuu",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 194941,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:03:15Z"
   },
   {
-    "name": "Darling",
-    "artist": "Girl's Day",
-    "album": "Girl's Day Love Second Album",
-    "added": "2020-04-22T03:22:02Z"
-  },
-  {
-    "name": "Something",
-    "artist": "Girl's Day",
-    "album": "Girl's Day Love Second Album",
-    "added": "2020-04-22T03:32:15Z"
-  },
-  {
-    "name": "I WANT YOU BACK",
-    "artist": "TWICE",
-    "album": "BDZ",
-    "added": "2020-02-29T18:57:44Z"
-  },
-  {
-    "name": "LALALA",
-    "artist": "TWICE",
-    "album": "The year of \"YES",
-    "added": "2020-03-15T04:48:07Z"
-  },
-  {
-    "name": "WANNABE",
-    "artist": "ITZY",
-    "album": "IT'z ME",
-    "added": "2020-03-11T05:13:04Z"
-  },
-  {
-    "name": "Rain 51db",
-    "artist": "LOOΠΔ 1/3",
-    "album": "Love & Evil",
-    "added": "2020-03-12T04:35:03Z"
-  },
-  {
-    "name": "rendezvous 18.6y",
-    "artist": "이달의 소녀 yyxy",
-    "album": "beauty&thebeat",
-    "added": "2020-04-22T03:22:22Z"
-  },
-  {
-    "name": "FLASH",
-    "artist": "X1",
-    "album": "QUANTUM LEAP",
-    "added": "2020-03-20T01:58:59Z"
-  },
-  {
+    "uri": "spotify:track:1j3zXAq0W9cLIpiAXwcYXF",
     "name": "Girl's Talk (이브, 츄)",
     "artist": "LOONA",
     "album": "Chuu",
-    "added": "2020-03-24T18:05:55Z"
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 197468,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:03:18Z"
+  },
+  {
+    "uri": "spotify:track:1DzpZ8HBR0MgGkZDhAdd7f",
+    "name": "One & Only (Go Won)",
+    "artist": "LOONA",
+    "album": "Go Won",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 175828,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:03:21Z"
+  },
+  {
+    "uri": "spotify:track:1tLmp8dEhaHvU0jm2aG6sS",
+    "name": "See Saw (Chuu, Go Won) (Feat. Kim Lip)",
+    "artist": "LOONA",
+    "album": "Go Won",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 201221,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:03:23Z"
+  },
+  {
+    "uri": "spotify:track:5UUeEljsNQroCUNId8DIV6",
+    "name": "Egoist (Olivia Hye) (Feat. JinSoul)",
+    "artist": "LOONA",
+    "album": "Olivia Hye",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 247381,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:03:27Z"
+  },
+  {
+    "uri": "spotify:track:6cfacimNXWogsp6DtJflyL",
+    "name": "Rosy (Go Won, Olivia Hye) (Feat. HeeJin)",
+    "artist": "LOONA",
+    "album": "Olivia Hye",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 194995,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:03:28Z"
+  },
+  {
+    "uri": "spotify:track:2hynpFtQsg5wqVevY8z6G7",
+    "name": "favOriTe",
+    "artist": "LOONA",
+    "album": "favOriTe",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 194253,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:04:03Z"
+  },
+  {
+    "uri": "spotify:track:0RqzUS7AkBhQDrBxcGFeDv",
+    "name": "Hi High",
+    "artist": "LOONA",
+    "album": "[+ +]",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 196863,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:04:08Z"
+  },
+  {
+    "uri": "spotify:track:5jhYykolbcG1T9wZSyvhp5",
+    "name": "Butterfly",
+    "artist": "LOONA",
+    "album": "[X X]",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 237756,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:04:11Z"
+  },
+  {
+    "uri": "spotify:track:33PStuI2gJCeZcYQIOHXAU",
+    "name": "BUTTERFLY",
+    "artist": "WJSN",
+    "album": "Neverland",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 217066,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-06-09T21:30:06Z"
+  },
+  {
+    "uri": "spotify:track:1FJPXCXDD9yt9naw8R5bfs",
+    "name": 365,
+    "artist": "LOONA",
+    "album": 365,
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 221920,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:04:15Z"
+  },
+  {
+    "uri": "spotify:track:7w3pIUjz7BTTqj9uAws40m",
+    "name": "So What",
+    "artist": "LOONA",
+    "album": "[#]",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 198040,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:04:18Z"
+  },
+  {
+    "uri": "spotify:track:6LOPo5liG9RE6pBKTVUoEm",
+    "name": "Sonatine",
+    "artist": "LOOΠΔ 1/3",
+    "album": "Love & Evil",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 197346,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:16:21Z"
+  },
+  {
+    "uri": "spotify:track:3WALXPWdol0F0quHImXEYm",
+    "name": "Rain 51db",
+    "artist": "LOOΠΔ 1/3",
+    "album": "Love & Evil",
+    "Disc Number": 1,
+    "Track Number": 3,
+    "Track Duration (ms)": 201409,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:16:24Z"
+  },
+  {
+    "uri": "spotify:track:3isW89jO5h49OoCHpqediW",
+    "name": "Love & Live",
+    "artist": "LOOΠΔ 1/3",
+    "album": "Love & Evil",
+    "Disc Number": 1,
+    "Track Number": 4,
+    "Track Duration (ms)": 206868,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:16:27Z"
+  },
+  {
+    "uri": "spotify:track:5K8aKuDFrWIHyNiPH1slWv",
+    "name": "You and Me Together",
+    "artist": "LOOΠΔ 1/3",
+    "album": "Love & Evil",
+    "Disc Number": 1,
+    "Track Number": 5,
+    "Track Duration (ms)": 187703,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:16:29Z"
+  },
+  {
+    "uri": "spotify:track:4UN3kpjB0RoGXUx2zyNzK0",
+    "name": "Valentine Girl",
+    "artist": "LOOΠΔ 1/3",
+    "album": "Love & Evil",
+    "Disc Number": 1,
+    "Track Number": 7,
+    "Track Duration (ms)": 190722,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-06-02T15:08:19Z"
+  },
+  {
+    "uri": "spotify:track:5fgpCIjBJ098E9zqN9DS87",
+    "name": "Sweet Crazy Love",
+    "artist": "LOOΠΔ / ODD EYE CIRCLE",
+    "album": "Max & Match",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 209083,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:17:12Z"
+  },
+  {
+    "uri": "spotify:track:5OnchRw2yAuIAwp2RYLCBa",
+    "name": "Girl Front",
+    "artist": "LOOΠΔ / ODD EYE CIRCLE",
+    "album": "Max & Match",
+    "Disc Number": 1,
+    "Track Number": 4,
+    "Track Duration (ms)": 196733,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:17:16Z"
+  },
+  {
+    "uri": "spotify:track:7xkpUBffveGC99B2UYIuFy",
+    "name": "LOONATIC Eng. Ver.",
+    "artist": "LOOΠΔ / ODD EYE CIRCLE",
+    "album": "LOONATIC Eng. Ver.",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 180575,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:17:20Z"
+  },
+  {
+    "uri": "spotify:track:4rKEmhNA19JezqVsSQS4yo",
+    "name": "love4eva (feat. Grimes)",
+    "artist": "LOONA/yyxy",
+    "album": "beauty&thebeat",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 220477,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:17:30Z"
+  },
+  {
+    "uri": "spotify:track:1Jk8M1iFFoTcL0IMuDHdsJ",
+    "name": "Like Ooh-Ahh",
+    "artist": "TWICE",
+    "album": "The Story Begins",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 215080,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:04:50Z"
+  },
+  {
+    "uri": "spotify:track:4CeE0LU1SkHshwHeMfPwqk",
+    "name": "CHEER UP",
+    "artist": "TWICE",
+    "album": "Page Two",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 208853,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:04:54Z"
+  },
+  {
+    "uri": "spotify:track:5KfbFCacFuNJGdK2zvovcF",
+    "name": "TT",
+    "artist": "TWICE",
+    "album": "Twicecoaster: Lane 1",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 212986,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:05:14Z"
+  },
+  {
+    "uri": "spotify:track:1PRI1XNUQDBjjm6p0Ya6aD",
+    "name": "Jelly Jelly",
+    "artist": "TWICE",
+    "album": "Twicecoaster: Lane 1",
+    "Disc Number": 1,
+    "Track Number": 4,
+    "Track Duration (ms)": 210626,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:05:19Z"
+  },
+  {
+    "uri": "spotify:track:1uwLMwgqPprCs5Q0OPRKI7",
+    "name": "Signal",
+    "artist": "TWICE",
+    "album": "SIGNAL",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 196680,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:04:58Z"
+  },
+  {
+    "uri": "spotify:track:2dYl2SI3sLyUffzxVBaZBz",
+    "name": "Knock Knock",
+    "artist": "TWICE",
+    "album": "Twicecoaster: Lane 2",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 195746,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:05:40Z"
+  },
+  {
+    "uri": "spotify:track:0ORQJClgATvuDDADfC9oGM",
+    "name": "Likey",
+    "artist": "TWICE",
+    "album": "Merry & Happy",
+    "Disc Number": 1,
+    "Track Number": 3,
+    "Track Duration (ms)": 207813,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:05:53Z"
+  },
+  {
+    "uri": "spotify:track:0O9OnWm3z2B2TjvE051AMV",
+    "name": "Heart Shaker",
+    "artist": "TWICE",
+    "album": "Merry & Happy",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 186893,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:05:52Z"
+  },
+  {
+    "uri": "spotify:track:5FoRWs4Z9XbPpG4uPPeiV5",
+    "name": "Turtle",
+    "artist": "TWICE",
+    "album": "Merry & Happy",
+    "Disc Number": 1,
+    "Track Number": 4,
+    "Track Duration (ms)": 198040,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:06:00Z"
+  },
+  {
+    "uri": "spotify:track:7ogyhvfoPn27BDswIUHMm1",
+    "name": "What is Love",
+    "artist": "TWICE",
+    "album": "What Is Love",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 208226,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:06:16Z"
+  },
+  {
+    "uri": "spotify:track:3t723PlEADna6GjgquoMRW",
+    "name": "Dance The Night Away",
+    "artist": "TWICE",
+    "album": "Summer Nights",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 180800,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:06:24Z"
+  },
+  {
+    "uri": "spotify:track:0Ll92eLIHWY5gey1ISNMPi",
+    "name": "YES or YES",
+    "artist": "TWICE",
+    "album": "YES or YES",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 237680,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:06:29Z"
+  },
+  {
+    "uri": "spotify:track:2HtcPHFdo7eu4Ilbvb0BVI",
+    "name": "Feel Special",
+    "artist": "TWICE",
+    "album": "Feel Special",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 206866,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:06:37Z"
+  },
+  {
+    "uri": "spotify:track:2YYlTkcmc7iSQmYfJER3eh",
+    "name": "BREAKTHROUGH - Korean Version",
+    "artist": "TWICE",
+    "album": "Feel Special",
+    "Disc Number": 1,
+    "Track Number": 7,
+    "Track Duration (ms)": 217693,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:06:39Z"
+  },
+  {
+    "uri": "spotify:track:3omvXShuRPM3zbDpWYqf5g",
+    "name": "MORE & MORE",
+    "artist": "TWICE",
+    "album": "MORE & MORE",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 199653,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-06-02T15:38:54Z"
+  },
+  {
+    "uri": "spotify:track:0S6giCcEzgm7SzK6cczMKc",
+    "name": "Q&A",
+    "artist": "Cherry Bullet",
+    "album": "Cherry Bullet 1st Single Album Let's Play Cherry Bullet",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 206164,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:14:33Z"
+  },
+  {
+    "uri": "spotify:track:58Cg9cOafaipuT7OvRLUQR",
+    "name": "Really Really",
+    "artist": "Cherry Bullet",
+    "album": "LOVE ADVENTURE",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 195680,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:14:38Z"
+  },
+  {
+    "uri": "spotify:track:6KxACudfT4vVXnDUkjU6lN",
+    "name": "Hands Up",
+    "artist": "Cherry Bullet",
+    "album": "Hands Up",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 212026,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:14:42Z"
+  },
+  {
+    "uri": "spotify:track:2ZVQY4mXF3eHTu1RBnBZl0",
+    "name": "Secret Garden",
+    "artist": "OH MY GIRL",
+    "album": "SECRET GARDEN",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 244022,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:18:51Z"
+  },
+  {
+    "uri": "spotify:track:0QQe9wGk7aZFa5gOAwAJ0w",
+    "name": "BUNGEE (Fall in Love)",
+    "artist": "OH MY GIRL",
+    "album": "OH MY GIRL SUMMER PACKAGE [FALL IN LOVE]",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 177400,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:18:59Z"
+  },
+  {
+    "uri": "spotify:track:5joNJn9LUvYcamWwa2iYCL",
+    "name": "Nonstop",
+    "artist": "OH MY GIRL",
+    "album": "NONSTOP",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 202760,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-20T22:19:04Z"
+  },
+  {
+    "uri": "spotify:track:0GU5GuJQQEnnREO2FxnVPT",
+    "name": "달라달라 (DALLA DALLA)",
+    "artist": "ITZY",
+    "album": "IT'z Different",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 199873,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-21T17:26:32Z"
+  },
+  {
+    "uri": "spotify:track:7zFBtYAVURF3bUVqEQ6UUu",
+    "name": "ICY",
+    "artist": "ITZY",
+    "album": "IT'z ICY",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 191142,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-21T17:26:34Z"
+  },
+  {
+    "uri": "spotify:track:6tCssnvTUREcperDOUTqvA",
+    "name": "WANNABE",
+    "artist": "ITZY",
+    "album": "It'z Me",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 191242,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-21T17:26:38Z"
+  },
+  {
+    "uri": "spotify:track:381g0b6QZxC13SzA2HRMIc",
+    "name": "Power Up",
+    "artist": "Red Velvet",
+    "album": "Summer Magic - Summer Mini Album",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 202040,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-21T17:26:53Z"
+  },
+  {
+    "uri": "spotify:track:64iDjAuWDogVhuoWhKklF9",
+    "name": "Dumb Dumb",
+    "artist": "Red Velvet",
+    "album": "The Red - The 1st Album",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 202543,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-21T17:27:13Z"
+  },
+  {
+    "uri": "spotify:track:7nKQ5WAcjnG48knyLuo8gO",
+    "name": "빨간 맛 Red Flavor",
+    "artist": "Red Velvet",
+    "album": "The Red Summer - Summer Mini Album",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 191139,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-21T17:27:32Z"
+  },
+  {
+    "uri": "spotify:track:6FoI3qwCRq0el1RYKeVGSx",
+    "name": "LOVE BOMB",
+    "artist": "fromis_9",
+    "album": "From.9",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 199966,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-22T22:27:39Z"
+  },
+  {
+    "uri": "spotify:track:3PIzI4Bl2b7oZloFWTPAna",
+    "name": "To Heart",
+    "artist": "fromis_9",
+    "album": "To. Heart",
+    "Disc Number": 1,
+    "Track Number": 2,
+    "Track Duration (ms)": 188527,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-22T22:27:42Z"
+  },
+  {
+    "uri": "spotify:track:30x5JeY6aI3nIJF6S97Jqp",
+    "name": "PITAPAT (DKDK)",
+    "artist": "fromis_9",
+    "album": "To. Day",
+    "Disc Number": 1,
+    "Track Number": 3,
+    "Track Duration (ms)": 183376,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-22T22:27:47Z"
+  },
+  {
+    "uri": "spotify:track:1KFwBOa8gDqT7Avua2yxfe",
+    "name": "HAPPY",
+    "artist": "WJSN",
+    "album": "HAPPY MOMENT",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 180756,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-28T16:07:39Z"
+  },
+  {
+    "uri": "spotify:track:1OIb1AalkGikhzCRbWgchd",
+    "name": "Secret",
+    "artist": "WJSN",
+    "album": "THE SECRET",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 222581,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-28T16:07:46Z"
+  },
+  {
+    "uri": "spotify:track:1qpcqhkwZqCJAu4JxEhute",
+    "name": "Dreams Come True",
+    "artist": "WJSN",
+    "album": "Dream your dream",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 225709,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-28T16:07:54Z"
+  },
+  {
+    "uri": "spotify:track:20yOiJHRQGirFYehRSIb6i",
+    "name": "Save Me, Save You",
+    "artist": "WJSN",
+    "album": "WJ PLEASE?",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 224930,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-28T16:07:58Z"
+  },
+  {
+    "uri": "spotify:track:1pXpzhdyeryEw8DqhaVrwe",
+    "name": "La La Love",
+    "artist": "WJSN",
+    "album": "WJ STAY?",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 202713,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-28T16:08:01Z"
+  },
+  {
+    "uri": "spotify:track:6u5ipVfAHGjTXvWuiI5sKB",
+    "name": "Boogie Up",
+    "artist": "WJSN",
+    "album": "SPECIAL ALBUM <For the Summer>",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 183787,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-28T16:08:05Z"
+  },
+  {
+    "uri": "spotify:track:42zMiF3EFBg5CsYbgKdhj1",
+    "name": "As You Wish",
+    "artist": "WJSN",
+    "album": "As You Wish",
+    "Disc Number": 1,
+    "Track Number": 1,
+    "Track Duration (ms)": 195667,
+    "Added By": "spotify:user:sa007vldf76jlwg3hnmcy72p5",
+    "Added At": "2020-05-28T16:08:08Z"
   }
 ]
