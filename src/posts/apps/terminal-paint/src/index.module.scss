@@ -1,10 +1,23 @@
-.canvas {
-  background-image: url('./transparency.png');
-  image-rendering: -moz-crisp-edges;
-  image-rendering: -webkit-crisp-edges;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
+
+.canvasContainer {
+  position: relative;
+  .canvas {
+    background-image: url('./transparency.png');
+  }
+  .overlayCanvas {
+    pointer-events: none;
+  }
+  .overlayCanvas, .canvas {
+    top: 0;
+    left: 0;
+    position: absolute;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+  }
 }
+
 
 .tempCanvas {
   display: none;

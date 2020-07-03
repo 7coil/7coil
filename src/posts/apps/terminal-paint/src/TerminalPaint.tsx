@@ -32,11 +32,14 @@ class TerminalPaint extends Component<{}, {
   exportedValue: string
 }> {
   canvas = React.createRef<HTMLCanvasElement>()
+  overlayCanvas = React.createRef<HTMLCanvasElement>()
   tempCanvas = React.createRef<HTMLCanvasElement>()
   ctx: CanvasRenderingContext2D
+  overlayCtx: CanvasRenderingContext2D
   tempCtx: CanvasRenderingContext2D
   painting: boolean
-  previousPoint: Vector
+  previousPoint: Vector = null
+  cursorPoint: Vector = null
 
   constructor(props) {
     super(props);
@@ -69,11 +72,13 @@ class TerminalPaint extends Component<{}, {
   setColour(colour: Colour, primary: boolean = true) {
     return (e) => {
       e.preventDefault();
-      
+
       if (primary) {
         this.setState({
           primaryColour: colour
         })
+
+        this.overlayCtx.fillStyle = `rgb(${colour.r},${colour.g},${colour.b})`
       } else {
         this.setState({
           secondaryColour: colour
@@ -84,6 +89,7 @@ class TerminalPaint extends Component<{}, {
   componentDidMount() {
     document.addEventListener('mouseup', this.mouseUp)
     this.ctx = this.canvas.current.getContext('2d')
+    this.overlayCtx = this.overlayCanvas.current.getContext('2d')
     this.tempCtx = this.tempCanvas.current.getContext('2d')
   }
   componentWillUnmount() {
@@ -107,7 +113,7 @@ class TerminalPaint extends Component<{}, {
               .replace('rrr', colourData[0].toString())
               .replace('ggg', colourData[1].toString())
               .replace('bbb', colourData[2].toString())
-            
+
             currentColour = pixelColour
             outputColour = pixelColour
           } else {
@@ -143,14 +149,14 @@ class TerminalPaint extends Component<{}, {
     if (this.tempCanvas.current.height === 0) return;
     this.ctx.drawImage(this.tempCanvas.current, 0, 0)
   }
-  drawPoint({ x, y }: Vector) {
+  drawPoint({ x, y }: Vector, ctx: CanvasRenderingContext2D, erase: boolean = false) {
     x -= Math.floor(this.state.brushWidth / 2)
     y -= Math.floor(this.state.brushHeight / 2)
 
-    if (this.state.tool === Tool.PEN) {
-      this.ctx.fillRect(x, y, this.state.brushWidth, this.state.brushHeight)
-    } else if (this.state.tool === Tool.RUBBER) {
-      this.ctx.clearRect(x, y, this.state.brushWidth, this.state.brushHeight)
+    if (erase) {
+      ctx.clearRect(x, y, this.state.brushWidth, this.state.brushHeight)
+    } else {
+      ctx.fillRect(x, y, this.state.brushWidth, this.state.brushHeight)
     }
   }
   drawLine(from: Vector, to: Vector) {
@@ -168,7 +174,7 @@ class TerminalPaint extends Component<{}, {
 
     coordinates.push(from);
 
-    while(!((x1 === x2) && (y1 === y2))) {
+    while (!((x1 === x2) && (y1 === y2))) {
       const e2 = err << 1;
       if (e2 > -dy) {
         err -= dy;
@@ -184,7 +190,7 @@ class TerminalPaint extends Component<{}, {
       })
     }
     coordinates.forEach((point) => {
-      this.drawPoint(point);
+      this.drawPoint(point, this.ctx, this.state.tool === Tool.RUBBER);
     })
   }
   getCanvasCoordFromPointer(e: React.MouseEvent<HTMLCanvasElement, MouseEvent>) {
@@ -195,18 +201,22 @@ class TerminalPaint extends Component<{}, {
     }
   }
   mouseDown(e: React.MouseEvent<HTMLCanvasElement, MouseEvent>) {
-    const { x, y } = this.getCanvasCoordFromPointer(e)
+    const pos = this.getCanvasCoordFromPointer(e)
 
-    if (e.button === 0) {
-      this.ctx.fillStyle = `rgb(${this.state.primaryColour.r},${this.state.primaryColour.g},${this.state.primaryColour.b})`
-    } else if (e.button === 2) {
-      this.ctx.fillStyle = `rgb(${this.state.secondaryColour.r},${this.state.secondaryColour.g},${this.state.secondaryColour.b})`
-    } else {
-      this.ctx.fillStyle = 'black'
+    if (this.state.tool === Tool.PEN) {
+      if (e.button === 0) {
+        this.ctx.fillStyle = `rgb(${this.state.primaryColour.r},${this.state.primaryColour.g},${this.state.primaryColour.b})`
+        this.overlayCtx.fillStyle = `rgb(${this.state.primaryColour.r},${this.state.primaryColour.g},${this.state.primaryColour.b})`
+      } else if (e.button === 2) {
+        this.ctx.fillStyle = `rgb(${this.state.secondaryColour.r},${this.state.secondaryColour.g},${this.state.secondaryColour.b})`
+        this.overlayCtx.fillStyle = `rgb(${this.state.secondaryColour.r},${this.state.secondaryColour.g},${this.state.secondaryColour.b})`
+      } else {
+        this.ctx.fillStyle = 'black'
+        this.overlayCtx.fillStyle = 'black'
+      }
     }
-
     this.painting = true
-    this.drawPoint({ x, y })
+    this.drawPoint(pos, this.ctx, this.state.tool === Tool.RUBBER)
   }
   mouseUp() {
     this.painting = false
@@ -214,11 +224,22 @@ class TerminalPaint extends Component<{}, {
   }
   mouseOut() {
     this.previousPoint = null
+    const canvasWidth = this.state.width * this.state.scaleX
+    const canvasHeight = this.state.height * this.state.scaleY
+    this.overlayCtx.clearRect(0, 0, canvasWidth, canvasHeight)
   }
   mouseMove(e: React.MouseEvent<HTMLCanvasElement, MouseEvent>) {
+    const pos = this.getCanvasCoordFromPointer(e)
+
+    const canvasWidth = this.state.width * this.state.scaleX
+    const canvasHeight = this.state.height * this.state.scaleY
+    this.overlayCtx.clearRect(0, 0, canvasWidth, canvasHeight)
+    
+    if (this.state.tool === Tool.RUBBER) this.overlayCtx.fillStyle = `rgba(0, 0, 0, 0.4)`
+    this.drawPoint(pos, this.overlayCtx, false)
+
     if (this.painting) {
-      const pos = this.getCanvasCoordFromPointer(e)
-      this.drawPoint(pos)
+      this.drawPoint(pos, this.ctx, this.state.tool === Tool.RUBBER)
 
       if (this.previousPoint && pos.x !== this.previousPoint.x && pos.y !== this.previousPoint.y) {
         this.drawLine(this.previousPoint, pos)
@@ -293,12 +314,12 @@ class TerminalPaint extends Component<{}, {
             <label htmlFor="height">Height of canvas (in characters)</label>
           </div>
           <div>
-            <input name="brushWidth" type="number" step="1" min="1" max="2048" value={this.state.brushWidth} onChange={this.handleInputChange}></input>
-            <label htmlFor="brushWidth">Width of brush (in characters)</label>
+            <input name="brushWidth" type="range" step="1" min="1" max="10" value={this.state.brushWidth} onChange={this.handleInputChange}></input>
+            <label htmlFor="brushWidth">Width of brush ({this.state.brushWidth} characters)</label>
           </div>
           <div>
-            <input name="brushHeight" type="number" step="1" min="1" max="2048" value={this.state.brushHeight} onChange={this.handleInputChange}></input>
-            <label htmlFor="brushHeight">Height of brush (in characters)</label>
+            <input name="brushHeight" type="range" step="1" min="1" max="10" value={this.state.brushHeight} onChange={this.handleInputChange}></input>
+            <label htmlFor="brushHeight">Height of brush ({this.state.brushHeight} characters)</label>
           </div>
         </div>
         <h2>Colours</h2>
@@ -321,33 +342,50 @@ class TerminalPaint extends Component<{}, {
           <button className={styles.colourButton} style={{ backgroundColor: 'rgb(255, 255, 255)' }} onClick={this.setColour({ r: 255, g: 255, b: 255 }, true)} onContextMenu={this.setColour({ r: 255, g: 255, b: 255 }, false)}></button>
         </div>
         <div className={styles.selectedColours}>
-          <div className={styles.selectedSecondaryColour} style={{backgroundColor: `rgb(${this.state.secondaryColour.r},${this.state.secondaryColour.g},${this.state.secondaryColour.b})`}}></div>
-          <div className={styles.selectedPrimaryColour} style={{backgroundColor: `rgb(${this.state.primaryColour.r},${this.state.primaryColour.g},${this.state.primaryColour.b})`}}></div>
+          <div className={styles.selectedSecondaryColour} style={{ backgroundColor: `rgb(${this.state.secondaryColour.r},${this.state.secondaryColour.g},${this.state.secondaryColour.b})` }}></div>
+          <div className={styles.selectedPrimaryColour} style={{ backgroundColor: `rgb(${this.state.primaryColour.r},${this.state.primaryColour.g},${this.state.primaryColour.b})` }}></div>
         </div>
         <h2>Tools</h2>
         <select name="tool" value={this.state.tool} onChange={this.handleInputChange}>
           {
             Object.entries(Tool)
-              .map(([key, value]) => 
+              .map(([key, value]) =>
                 <option value={value} key={key}>{value}</option>
               )
           }
         </select>
         <h2>Canvas</h2>
-        <canvas
-          ref={this.canvas}
-          className={styles.canvas}
-          width={this.state.width}
-          height={this.state.height}
+        <div className={styles.canvasContainer}
           style={{
             width: this.state.width * this.state.scaleX,
             height: this.state.height * this.state.scaleY,
-          }}
-          onMouseDown={this.mouseDown}
-          onMouseMove={this.mouseMove}
-          onMouseOut={this.mouseOut}
-          onContextMenu={e => e.preventDefault()}>
-        </canvas>
+          }}>
+          <canvas
+            ref={this.canvas}
+            className={styles.canvas}
+            width={this.state.width}
+            height={this.state.height}
+            style={{
+              width: this.state.width * this.state.scaleX,
+              height: this.state.height * this.state.scaleY,
+            }}
+            onMouseDown={this.mouseDown}
+            onMouseMove={this.mouseMove}
+            onMouseOut={this.mouseOut}
+            onContextMenu={e => e.preventDefault()}>
+          </canvas>
+          <canvas
+            ref={this.overlayCanvas}
+            className={styles.overlayCanvas}
+            width={this.state.width}
+            height={this.state.height}
+            style={{
+              width: this.state.width * this.state.scaleX,
+              height: this.state.height * this.state.scaleY,
+            }}
+          >
+          </canvas>
+        </div>
         <canvas
           ref={this.tempCanvas}
           className={styles.tempCanvas}>
