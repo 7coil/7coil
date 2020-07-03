@@ -1,6 +1,7 @@
 import React, { ChangeEvent, Component } from 'react';
 import styles from './index.module.scss';
 import PaddingContainer from '../../../../components/PaddingContainer';
+import CombineStyles from '../../../../helpers/CombineStyles';
 
 interface Point {
   x: number,
@@ -124,6 +125,8 @@ class TerminalPaint extends Component<{}, { width: number, height: number, scale
     this.tempCtx.drawImage(this.canvas.current, 0, 0)
   }
   tempRestore() {
+    if (this.tempCanvas.current.width === 0) return;
+    if (this.tempCanvas.current.height === 0) return;
     this.ctx.drawImage(this.tempCanvas.current, 0, 0)
   }
   drawPoint({ x, y }: Point) {
@@ -172,23 +175,23 @@ class TerminalPaint extends Component<{}, { width: number, height: number, scale
     // How do you please TypeScript?!?
     if (name === 'scaleX') {
       this.setState({
-        scaleX: parseInt(value, 10)
+        scaleX: Math.max(1, parseInt(value, 10))
       })
     } else if (name === 'scaleY') {
       this.setState({
-        scaleY: parseInt(value, 10)
+        scaleY: Math.max(1, parseInt(value, 10))
       })
     } else if (name === 'width') {
       this.tempSave()
       this.setState({
-        width: parseInt(value, 10)
+        width: Math.max(1, parseInt(value, 10))
       }, () => {
         this.tempRestore()
       })
     } else if (name === 'height') {
       this.tempSave()
       this.setState({
-        height: parseInt(value, 10)
+        height: Math.max(1, parseInt(value, 10))
       }, () => {
         this.tempRestore()
       })
@@ -205,11 +208,11 @@ class TerminalPaint extends Component<{}, { width: number, height: number, scale
           <h2>Properties</h2>
           <div>
             <input name="scaleX" type="number" step="1" min="1" max="2048" value={this.state.scaleX} onChange={this.handleInputChange}></input>
-            <label htmlFor="scaleX">Height of character</label>
+            <label htmlFor="scaleX">Width of character</label>
           </div>
           <div>
             <input name="scaleY" type="number" step="1" min="1" max="2048" value={this.state.scaleY} onChange={this.handleInputChange}></input>
-            <label htmlFor="scaleY">Width of character</label>
+            <label htmlFor="scaleY">Height of character</label>
           </div>
           <div>
             <input name="width" type="number" step="1" min="1" max="2048" value={this.state.width} onChange={this.handleInputChange}></input>
@@ -220,24 +223,24 @@ class TerminalPaint extends Component<{}, { width: number, height: number, scale
             <label htmlFor="height">Height of canvas (in characters)</label>
           </div>
         </div>
-        <div>
-          <h2>Colours</h2>
-          <button style={{ backgroundColor: 'rgb(0, 0, 0)' }} onClick={this.setColour({ r: 0, g: 0, b: 0 }, true)} onContextMenu={this.setColour({ r: 0, g: 0, b: 0 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(128, 0, 0)' }} onClick={this.setColour({ r: 128, g: 0, b: 0 }, true)} onContextMenu={this.setColour({ r: 128, g: 0, b: 0 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(0, 128, 0)' }} onClick={this.setColour({ r: 0, g: 128, b: 0 }, true)} onContextMenu={this.setColour({ r: 0, g: 128, b: 0 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(128, 128, 0)' }} onClick={this.setColour({ r: 128, g: 128, b: 0 }, true)} onContextMenu={this.setColour({ r: 128, g: 128, b: 0 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(0, 0, 128)' }} onClick={this.setColour({ r: 0, g: 0, b: 128 }, true)} onContextMenu={this.setColour({ r: 0, g: 0, b: 128 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(128, 0, 128)' }} onClick={this.setColour({ r: 128, g: 0, b: 128 }, true)} onContextMenu={this.setColour({ r: 128, g: 0, b: 128 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(0, 128, 128)' }} onClick={this.setColour({ r: 0, g: 128, b: 128 }, true)} onContextMenu={this.setColour({ r: 0, g: 128, b: 128 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(192, 192, 192)' }} onClick={this.setColour({ r: 192, g: 192, b: 192 }, true)} onContextMenu={this.setColour({ r: 192, g: 192, b: 192 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(128, 128, 128)' }} onClick={this.setColour({ r: 128, g: 128, b: 128 }, true)} onContextMenu={this.setColour({ r: 128, g: 128, b: 128 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(255, 0, 0)' }} onClick={this.setColour({ r: 255, g: 0, b: 0 }, true)} onContextMenu={this.setColour({ r: 255, g: 0, b: 0 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(0, 255, 0)' }} onClick={this.setColour({ r: 0, g: 255, b: 0 }, true)} onContextMenu={this.setColour({ r: 0, g: 255, b: 0 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(255, 255, 0)' }} onClick={this.setColour({ r: 255, g: 255, b: 0 }, true)} onContextMenu={this.setColour({ r: 255, g: 255, b: 0 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(0, 0, 255)' }} onClick={this.setColour({ r: 0, g: 0, b: 255 }, true)} onContextMenu={this.setColour({ r: 0, g: 0, b: 255 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(255, 0, 255)' }} onClick={this.setColour({ r: 255, g: 0, b: 255 }, true)} onContextMenu={this.setColour({ r: 255, g: 0, b: 255 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(0, 255, 255)' }} onClick={this.setColour({ r: 0, g: 255, b: 255 }, true)} onContextMenu={this.setColour({ r: 0, g: 255, b: 255 }, false)}>colour</button>
-          <button style={{ backgroundColor: 'rgb(255, 255, 255)' }} onClick={this.setColour({ r: 255, g: 255, b: 255 }, true)} onContextMenu={this.setColour({ r: 255, g: 255, b: 255 }, false)}>colour</button>
+        <h2>Colours</h2>
+        <div className={styles.colourButtons}>
+          <button className={CombineStyles(styles.colourButton, styles.darkButton)} style={{ backgroundColor: 'rgb(0, 0, 0)' }} onClick={this.setColour({ r: 0, g: 0, b: 0 }, true)} onContextMenu={this.setColour({ r: 0, g: 0, b: 0 }, false)}></button>
+          <button className={CombineStyles(styles.colourButton, styles.darkButton)} style={{ backgroundColor: 'rgb(128, 0, 0)' }} onClick={this.setColour({ r: 128, g: 0, b: 0 }, true)} onContextMenu={this.setColour({ r: 128, g: 0, b: 0 }, false)}></button>
+          <button className={styles.colourButton} style={{ backgroundColor: 'rgb(0, 128, 0)' }} onClick={this.setColour({ r: 0, g: 128, b: 0 }, true)} onContextMenu={this.setColour({ r: 0, g: 128, b: 0 }, false)}></button>
+          <button className={styles.colourButton} style={{ backgroundColor: 'rgb(128, 128, 0)' }} onClick={this.setColour({ r: 128, g: 128, b: 0 }, true)} onContextMenu={this.setColour({ r: 128, g: 128, b: 0 }, false)}></button>
+          <button className={CombineStyles(styles.colourButton, styles.darkButton)} style={{ backgroundColor: 'rgb(0, 0, 128)' }} onClick={this.setColour({ r: 0, g: 0, b: 128 }, true)} onContextMenu={this.setColour({ r: 0, g: 0, b: 128 }, false)}></button>
+          <button className={CombineStyles(styles.colourButton, styles.darkButton)} style={{ backgroundColor: 'rgb(128, 0, 128)' }} onClick={this.setColour({ r: 128, g: 0, b: 128 }, true)} onContextMenu={this.setColour({ r: 128, g: 0, b: 128 }, false)}></button>
+          <button className={styles.colourButton} style={{ backgroundColor: 'rgb(0, 128, 128)' }} onClick={this.setColour({ r: 0, g: 128, b: 128 }, true)} onContextMenu={this.setColour({ r: 0, g: 128, b: 128 }, false)}></button>
+          <button className={styles.colourButton} style={{ backgroundColor: 'rgb(192, 192, 192)' }} onClick={this.setColour({ r: 192, g: 192, b: 192 }, true)} onContextMenu={this.setColour({ r: 192, g: 192, b: 192 }, false)}></button>
+          <button className={styles.colourButton} style={{ backgroundColor: 'rgb(128, 128, 128)' }} onClick={this.setColour({ r: 128, g: 128, b: 128 }, true)} onContextMenu={this.setColour({ r: 128, g: 128, b: 128 }, false)}></button>
+          <button className={styles.colourButton} style={{ backgroundColor: 'rgb(255, 0, 0)' }} onClick={this.setColour({ r: 255, g: 0, b: 0 }, true)} onContextMenu={this.setColour({ r: 255, g: 0, b: 0 }, false)}></button>
+          <button className={styles.colourButton} style={{ backgroundColor: 'rgb(0, 255, 0)' }} onClick={this.setColour({ r: 0, g: 255, b: 0 }, true)} onContextMenu={this.setColour({ r: 0, g: 255, b: 0 }, false)}></button>
+          <button className={styles.colourButton} style={{ backgroundColor: 'rgb(255, 255, 0)' }} onClick={this.setColour({ r: 255, g: 255, b: 0 }, true)} onContextMenu={this.setColour({ r: 255, g: 255, b: 0 }, false)}></button>
+          <button className={CombineStyles(styles.colourButton, styles.darkButton)} style={{ backgroundColor: 'rgb(0, 0, 255)' }} onClick={this.setColour({ r: 0, g: 0, b: 255 }, true)} onContextMenu={this.setColour({ r: 0, g: 0, b: 255 }, false)}></button>
+          <button className={styles.colourButton} style={{ backgroundColor: 'rgb(255, 0, 255)' }} onClick={this.setColour({ r: 255, g: 0, b: 255 }, true)} onContextMenu={this.setColour({ r: 255, g: 0, b: 255 }, false)}></button>
+          <button className={styles.colourButton} style={{ backgroundColor: 'rgb(0, 255, 255)' }} onClick={this.setColour({ r: 0, g: 255, b: 255 }, true)} onContextMenu={this.setColour({ r: 0, g: 255, b: 255 }, false)}></button>
+          <button className={styles.colourButton} style={{ backgroundColor: 'rgb(255, 255, 255)' }} onClick={this.setColour({ r: 255, g: 255, b: 255 }, true)} onContextMenu={this.setColour({ r: 255, g: 255, b: 255 }, false)}></button>
         </div>
         <div className={styles.selectedColours}>
           <div className={styles.selectedSecondaryColour} style={{backgroundColor: `rgb(${this.state.secondaryColour.r},${this.state.secondaryColour.g},${this.state.secondaryColour.b})`}}></div>

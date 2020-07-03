@@ -10,6 +10,20 @@
   display: none;
 }
 
+.colourButtons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(2em, 1fr));
+
+  .colourButton {
+    height: 2em;
+  }
+
+  .darkButton {
+    color: white;
+  }
+}
+
+
 .selectedColours {
   position: relative;
   width: 6em;
