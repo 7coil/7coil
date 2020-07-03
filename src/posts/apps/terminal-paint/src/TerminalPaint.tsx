@@ -190,19 +190,19 @@ class TerminalPaint extends Component<{}, {
     // How do you please TypeScript?!?
     if (name === 'scaleX') {
       this.setState({
-        scaleX: Math.max(1, parseInt(value, 10))
+        scaleX: Math.min(Math.max(1, parseInt(value, 10)), 2048)
       })
     } else if (name === 'scaleY') {
       this.setState({
-        scaleY: Math.max(1, parseInt(value, 10))
+        scaleY: Math.min(Math.max(1, parseInt(value, 10)), 2048)
       })
     } else if (name === 'brushWidth') {
       this.setState({
-        brushWidth: Math.max(1, parseInt(value, 10))
+        brushWidth: Math.min(Math.max(1, parseInt(value, 10)), 2048)
       })
     } else if (name === 'brushHeight') {
       this.setState({
-        brushHeight: Math.max(1, parseInt(value, 10))
+        brushHeight: Math.min(Math.max(1, parseInt(value, 10)), 2048)
       })
     } else if (name === 'width') {
       this.tempSave()
