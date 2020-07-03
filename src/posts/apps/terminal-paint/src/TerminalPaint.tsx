@@ -44,6 +44,7 @@ class TerminalPaint extends Component<{}, {
     this.mouseDown = this.mouseDown.bind(this);
     this.mouseUp = this.mouseUp.bind(this);
     this.mouseMove = this.mouseMove.bind(this);
+    this.mouseOut = this.mouseOut.bind(this);
     this.handleInputChange = this.handleInputChange.bind(this);
     this.tempSave = this.tempSave.bind(this);
     this.tempRestore = this.tempRestore.bind(this);
@@ -152,6 +153,40 @@ class TerminalPaint extends Component<{}, {
       this.ctx.clearRect(x, y, this.state.brushWidth, this.state.brushHeight)
     }
   }
+  drawLine(from: Vector, to: Vector) {
+    const coordinates: Vector[] = [];
+    let x1 = from.x;
+    let y1 = from.y;
+    let x2 = to.x;
+    let y2 = to.y;
+
+    const dx = Math.abs(x2 - x1);
+    const dy = Math.abs(y2 - y1);
+    const sx = (x1 < x2) ? 1 : -1;
+    const sy = (y1 < y2) ? 1 : -1;
+    let err = dx - dy;
+
+    coordinates.push(from);
+
+    while(!((x1 === x2) && (y1 === y2))) {
+      const e2 = err << 1;
+      if (e2 > -dy) {
+        err -= dy;
+        x1 += sx;
+      }
+      if (e2 < dx) {
+        err += dx;
+        y1 += sy;
+      }
+      coordinates.push({
+        x: x1,
+        y: y1
+      })
+    }
+    coordinates.forEach((point) => {
+      this.drawPoint(point);
+    })
+  }
   getCanvasCoordFromPointer(e: React.MouseEvent<HTMLCanvasElement, MouseEvent>) {
     const canvasBounds = this.canvas.current.getBoundingClientRect()
     return {
@@ -175,11 +210,21 @@ class TerminalPaint extends Component<{}, {
   }
   mouseUp() {
     this.painting = false
+    this.previousPoint = null
+  }
+  mouseOut() {
+    this.previousPoint = null
   }
   mouseMove(e: React.MouseEvent<HTMLCanvasElement, MouseEvent>) {
     if (this.painting) {
-      const { x, y } = this.getCanvasCoordFromPointer(e)
-      this.drawPoint({ x, y })
+      const pos = this.getCanvasCoordFromPointer(e)
+      this.drawPoint(pos)
+
+      if (this.previousPoint && pos.x !== this.previousPoint.x && pos.y !== this.previousPoint.y) {
+        this.drawLine(this.previousPoint, pos)
+      }
+
+      this.previousPoint = pos
     }
   }
   handleInputChange(e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) {
@@ -300,6 +345,7 @@ class TerminalPaint extends Component<{}, {
           }}
           onMouseDown={this.mouseDown}
           onMouseMove={this.mouseMove}
+          onMouseOut={this.mouseOut}
           onContextMenu={e => e.preventDefault()}>
         </canvas>
         <canvas
