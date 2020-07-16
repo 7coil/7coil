@@ -2,9 +2,9 @@ import React from "react";
 import Layout from "../components/Layout";
 import PaddingContainer from "../components/PaddingContainer";
 import styles from './index.module.scss';
-import { FaTwitter, FaEnvelope, FaGithub } from 'react-icons/fa'
 import { Projects } from "../components/Projects";
 import { Experiences } from "../components/Experiences";
+import SocialMediaHandles from "../components/SocialMediaHandles";
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -14,40 +14,7 @@ const IndexPage = ({ data }) => (
         <span className={styles.pageSubtitle}>{data.site.siteMetadata.description}</span>
       </div>
       <div>
-        <table>
-          <tbody>
-            <tr>
-              <td>
-                <FaGithub />
-              </td>
-              <td>
-                <a target="_blank" rel="noreferrer" href="https://github.com/7coil">
-                  7coil
-              </a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <FaTwitter />
-              </td>
-              <td>
-                <a target="_blank" rel="noreferrer" href="https://twitter.com/sevencoil">
-                  sevencoil
-              </a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <FaEnvelope />
-              </td>
-              <td>
-                <a href="mailto:leondrolio@leondrolio.com">
-                  leondrolio@leondrolio.com
-              </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <SocialMediaHandles />
       </div>
     </PaddingContainer>
     <PaddingContainer>

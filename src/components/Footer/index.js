@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PaddingContainer from '../PaddingContainer';
 import styles from './index.module.scss';
 import music from './music.json';
+import SocialMediaHandles from '../SocialMediaHandles';
 
 class Footer extends Component {
   constructor(props) {
@@ -32,9 +33,7 @@ class Footer extends Component {
                 You should probably listen to <a href={song.uri.replace('spotify:track:', 'https://open.spotify.com/track/')} target="_blank" rel="noreferrer"><b>{song.name}</b></a> by <b>{song.artist}</b> in {!song.album.toLowerCase().startsWith('the') && 'the '}<b>{song.album}</b>{!song.album.toLowerCase().endsWith('album') && ' album'}.
               </p>
             }
-            <p>
-              <a href="https://github.com/7coil">GitHub</a>
-            </p>
+            <SocialMediaHandles />
           </PaddingContainer>
         </div>
         <div className={styles.copyright}>
