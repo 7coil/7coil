@@ -1,6 +1,6 @@
 ---
 title: GitTags
-description: A Discord Bot to fetch tags from GitHub
+description: A Discord messaging bot which responds with the contents of files on GitHub
 links:
   - key: github
     name: GitHub

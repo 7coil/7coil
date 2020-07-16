@@ -1,6 +1,6 @@
 ---
 title: DiscordBlocks
-description: The block based programming language for Discord, based on Discord.js and Blockly.
+description: The block based programming language for Discord, based on Discord.js and Blockly
 links:
   - key: github
     name: GitHub

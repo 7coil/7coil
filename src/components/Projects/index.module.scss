@@ -1,0 +1,25 @@
+@import "config";
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  .card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em;
+
+    .cardImage {
+      border-radius: 1.5em;
+      width: 10vw;
+      max-width: 100px;
+      min-width: 3em;
+      @include blur(1px);
+    }
+
+    .cardTitle {
+      font-size: 1.5em;
+    }
+  }
+}

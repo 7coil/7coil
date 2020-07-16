@@ -1,99 +1,81 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
-import Layout from "../components/Layout"
-import styles from './index.module.scss';
-import Img from 'gatsby-image';
+import React from "react";
+import Layout from "../components/Layout";
 import PaddingContainer from "../components/PaddingContainer";
-import Header from "../components/Header";
+import styles from './index.module.scss';
+import { FaTwitter, FaEnvelope, FaGithub } from 'react-icons/fa'
+import { Projects } from "../components/Projects";
+import { Experiences } from "../components/Experiences";
 
 const IndexPage = ({ data }) => (
-  <Layout noHeader={true}>
-    <div className={styles.videoContainer}>
-      <div className={styles.videoContentContainer}>
-        <Header />
-        <div className={styles.content}>
-          <span className={styles.pageTitle}>Leondro Lio</span>
-          {/* <p>Random Programming Adventures</p> */}
-        </div>
+  <Layout>
+    <PaddingContainer className={styles.jumbotron}>
+      <div>
+        <span className={styles.pageTitle}>{data.site.siteMetadata.title}</span>
+        <span className={styles.pageSubtitle}>{data.site.siteMetadata.description}</span>
       </div>
-      <iframe
-        src="https://www.youtube.com/embed/OKb0agtT-Fk?autoplay=1&amp;mute=1&amp;controls=0&amp;disablekb=1&amp;modestbranding=1&amp;loop=1&amp;playlist=OKb0agtT-Fk"
-        frameBorder="0"
-        className={styles.video}
-        title="Home Page Background"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen />
-    </div>
+      <div>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <FaGithub />
+              </td>
+              <td>
+                <a target="_blank" rel="noreferrer" href="https://github.com/7coil">
+                  7coil
+              </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <FaTwitter />
+              </td>
+              <td>
+                <a target="_blank" rel="noreferrer" href="https://twitter.com/sevencoil">
+                  sevencoil
+              </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <FaEnvelope />
+              </td>
+              <td>
+                <a href="mailto:leondrolio@leondrolio.com">
+                  leondrolio@leondrolio.com
+              </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </PaddingContainer>
     <PaddingContainer>
-      <h1>Projects</h1>
-      <div className={styles.cards}>
-        {
-          data.allMdx.edges
-            .map(edge => edge.node)
-            .filter(page => page.frontmatter.image) // Make sure pages have images
-            .map((page, index) => {
-              const link = page.frontmatter.redirect || page.fields.slug
-              return (
-                <Link to={link} key={index}>
-                  <div className={styles.card}>
-                    {
-                      page.frontmatter.image &&
-                      <Img className={styles.cardImage} fluid={page.frontmatter.image.childImageSharp.fluid} />
-                    }
-                    <div className={styles.cardContent}>
-                      <span className={styles.cardTitle}>{page.frontmatter.title}</span>
-                    </div>
-                  </div>
-                </Link>
-              )
-            })
-        }
-      </div>
+      <p>
+        I am a full stack developer with a passion in ReactJS.
+
+        Seeing how people use and react to my projects encourages me to make better work,
+        and make my projects open source for the community to use.
+      </p>
+
+      <h1>My Experiences</h1>
+      <Experiences />
+
+      <h1>My Projects</h1>
+      <Projects />
     </PaddingContainer>
   </Layout>
 )
 
 export const query = graphql`
-  query homepageProjects {
-    allMdx(
-      filter: {
-        fields: {
-          template: {
-            in: ["projects", "apps"]
-          }
-        }
-        frontmatter: {
-          homepage: {
-            eq: true
-          }
-        }
-      },
-      sort: {
-        order: DESC,
-        fields: [frontmatter___date]
-      }
-    ) {
-      edges {
-        node {
-          fields {
-            template
-            slug
-          }
-          frontmatter {
-            title
-            redirect
-            image {
-              childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 500, cropFocus: ENTROPY) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
-      }
+query {
+  site {
+    siteMetadata {
+      title
+      description
     }
   }
+}
 `
 
 export default IndexPage

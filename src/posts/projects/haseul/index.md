@@ -1,6 +1,6 @@
 ---
 title: HaSeul Bot Framework
-description: An expressjs-like command handling engine
+description: An ExpressJS inspired command handling engine for chat bots
 links:
   - key: github
     name: GitHub

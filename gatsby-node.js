@@ -40,6 +40,9 @@ exports.createPages = ({ actions, graphql, reporter }) => {
               template
               slug
             }
+            frontmatter {
+              disable
+            }
           }
         }
       }
@@ -51,27 +54,21 @@ exports.createPages = ({ actions, graphql, reporter }) => {
         return;
       }
 
-      const templates = {
-        default: path.resolve(__dirname, 'src', 'templates', 'default', 'index.js')
-      };
-
       result.data.allMdx.edges.forEach(({ node }) => {
         const template = node.fields.template;
-        let templatePath = path.resolve(__dirname, 'src', 'templates', node.fields.template, 'index.js');
+        let templatePath = path.resolve(__dirname, 'src', 'templates', template, 'index.js');
 
-        if (templates[template]) {
-          templatePath = templates[template];
-        } else if (fs.existsSync(templatePath)) {
-          templates[template] = templatePath;
-        } else {
-          templatePath = templates.default;
+        if (!fs.existsSync(templatePath)) {
+          templatePath = path.resolve(__dirname, 'src', 'templates', 'default', 'index.js')
         }
 
-        createPage({
-          path: node.fields.slug,
-          component: templatePath,
-          context: node.fields
-        });
+        if (node.frontmatter?.disable !== true) {
+          createPage({
+            path: node.fields.slug,
+            component: templatePath,
+            context: node.fields
+          });
+        }
       });
     });
 }
