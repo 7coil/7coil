@@ -1,25 +1,2 @@
 @import "config";
 
-.jumbotron {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  padding-top: 2em;
-  padding-bottom: 2em;
-
-  @include onMobile {
-    grid-template-columns: 1fr;
-  }
-
-  .pageTitle, .pageSubtitle {
-    display: block;
-  }
-  
-  .pageTitle {
-    font-size: 3em;
-    font-weight: bold;
-  }
-  
-  .pageSubtitle {
-    font-size: 2em;
-  }
-}
