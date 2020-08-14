@@ -8,6 +8,9 @@ links:
   - key: website
     name: Web Application
     link: https://discordblocks.leondrolio.com/
+features:
+  - javascript
+  - react
 image: ./example.png
 date: 2017-05-10 22:06:24+00
 homepage: true

@@ -11,6 +11,8 @@ links:
   - key: docs
     name: Documentation
     link: https://haseul.leondrolio.com/
+features:
+  - typescript
 image: ./somecode.png
 date: 2019-06-04 16:39:31
 edited: 2020-04-27 19:16:36+01

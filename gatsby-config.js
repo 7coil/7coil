@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/zhac/240/',
   siteMetadata: {
     title: 'Leondro Lio',
     description: 'Student and Developer',

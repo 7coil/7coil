@@ -8,6 +8,8 @@ links:
   - key: website
     name: Windows Application
     link: https://github.com/Terminal/DiscordForOffice/releases/tag/1.0.3
+features:
+  - csharp
 image: ./Discord_BPfGSQ10Ev.png
 date: 2017-05-10 22:06:24+00
 homepage: true

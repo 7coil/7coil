@@ -37,6 +37,7 @@ class Projects extends Component {
                     title
                     description
                     redirect
+                    features
                     image {
                       childImageSharp {
                         fluid(maxWidth: 500, maxHeight: 500, cropFocus: ENTROPY) {
