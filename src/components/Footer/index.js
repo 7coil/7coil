@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PaddingContainer from '../PaddingContainer';
+import SocialMediaHandles from '../SocialMediaHandles';
 import styles from './index.module.scss';
 import music from './music.json';
-import SocialMediaHandles from '../SocialMediaHandles';
 
 class Footer extends Component {
   constructor(props) {
@@ -29,9 +29,19 @@ class Footer extends Component {
           <PaddingContainer>
             {
               song &&
-              <p>
-                You should probably listen to <a href={song.uri.replace('spotify:track:', 'https://open.spotify.com/track/')} target="_blank" rel="noreferrer"><b>{song.name}</b></a> by <b>{song.artist}</b> in {!song.album.toLowerCase().startsWith('the') && 'the '}<b>{song.album}</b>{!song.album.toLowerCase().endsWith('album') && ' album'}.
-              </p>
+              <div>
+                <h2>Recommended Song</h2>
+                <p>
+                  You should probably listen to <b>{song.name}</b> by <b>{song.artist}</b> in {!song.album.toLowerCase().startsWith('the') && 'the '}<b>{song.album}</b>{!song.album.toLowerCase().endsWith('album') && ' album'}.
+                </p>
+                <iframe
+                  src={`https://open.spotify.com/embed/track/${song.uri.replace('spotify:track:', '')}`}
+                  title="Spotify"
+                  frameborder="0"
+                  allowtransparency="true"
+                  allow="encrypted-media"
+                  className={styles.spotifyEmbed} />
+              </div>
             }
             <SocialMediaHandles />
           </PaddingContainer>
