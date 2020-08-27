@@ -1,10 +1,10 @@
-import React from 'react';
-import styles from './index.module.scss';
-import CombineStyles from '../../helpers/CombineStyles';
-import { StaticQuery, graphql } from 'gatsby';
+import { graphql, StaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
+import React from 'react';
+import CombineStyles from '../../helpers/CombineStyles';
 import PaddingContainer from '../PaddingContainer';
 import SocialMediaHandles from '../SocialMediaHandles';
+import styles from './index.module.scss';
 
 const WelcomeWheel = ({ children, className = '' }) => (
   <div className={CombineStyles(styles.welcomeWheelScreen, className)}>
