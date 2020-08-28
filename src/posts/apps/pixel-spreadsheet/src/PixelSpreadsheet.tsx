@@ -79,7 +79,7 @@ class PixelSpreadsheet extends Component<{}, { height: number, image: HTMLImageE
         b.push(data.data[pixelIndex + 2])
       }
 
-      console.log([r, g, b])
+      // console.log([r, g, b])
       spreadsheet.addRows([r, g, b])
 
       // Set height, conditional formatting and font for the rows
