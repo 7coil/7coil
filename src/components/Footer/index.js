@@ -37,8 +37,8 @@ class Footer extends Component {
                 <iframe
                   src={`https://open.spotify.com/embed/track/${song.uri.replace('spotify:track:', '')}`}
                   title="Spotify"
-                  frameborder="0"
-                  allowtransparency="true"
+                  frameBorder="0"
+                  allowTransparency="true"
                   allow="encrypted-media"
                   className={styles.spotifyEmbed} />
               </div>
