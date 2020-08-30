@@ -7,7 +7,7 @@ import { Projects } from "../components/Projects";
 import { WelcomeWheel } from '../components/WelcomeWheel';
 
 const IndexPage = ({ data }) => (
-  <Layout>
+  <Layout noHeader={true}>
     <WelcomeWheel />
     <PaddingContainer>
       <h1>My Experiences</h1>

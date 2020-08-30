@@ -5,6 +5,7 @@ import CombineStyles from '../../helpers/CombineStyles';
 import PaddingContainer from '../PaddingContainer';
 import SocialMediaHandles from '../SocialMediaHandles';
 import styles from './index.module.scss';
+import Header from '../Header';
 
 const WelcomeWheel = ({ children, className = '' }) => (
   <div className={CombineStyles(styles.welcomeWheelScreen, className)}>
@@ -32,6 +33,7 @@ const WelcomeWheel = ({ children, className = '' }) => (
         return (
           <>
             <Img fluid={data.file.childImageSharp.fluid} className={styles.image} />
+            <Header className={styles.header} />
             <PaddingContainer className={styles.container}>
               <div className={styles.jumbotron}>
                 <div>
