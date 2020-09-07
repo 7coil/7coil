@@ -1,10 +1,10 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import Layout from '../../components/Layout';
-import { MDXRenderer } from 'gatsby-plugin-mdx';
-import styles from './index.module.scss';
-import SEO from '../../components/SEO';
-import PaddingContainer from '../../components/PaddingContainer';
+import Layout from '../../components/Layout'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
+import styles from './index.module.scss'
+import SEO from '../../components/SEO'
+import PaddingContainer from '../../components/PaddingContainer'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -16,23 +16,31 @@ export default function Template({
       <SEO
         title={frontmatter.title}
         description={frontmatter.description}
-        image={frontmatter.image ? frontmatter.image.childImageSharp.fluid.src : null}
+        image={
+          frontmatter.image ? frontmatter.image.childImageSharp.fluid.src : null
+        }
       />
       <PaddingContainer>
         <p>{fields.slug.replace(/\//g, ' / ')}</p>
         <h2>Links</h2>
-        { frontmatter.links && (
+        {frontmatter.links && (
           <ul>
-            {frontmatter.links.map(link => <li key={link.key}><a href={link.link}>{link.name}</a></li>)}
+            {frontmatter.links.map((link) => (
+              <li key={link.key}>
+                <a href={link.link}>{link.name}</a>
+              </li>
+            ))}
           </ul>
-        ) }
+        )}
         <h1>{frontmatter.title}</h1>
-        {
-          frontmatter.redirect &&
+        {frontmatter.redirect && (
           <>
-            <p>This page has been redirected to: <Link to={frontmatter.redirect}>{frontmatter.redirect}</Link></p>
+            <p>
+              This page has been redirected to:{' '}
+              <Link to={frontmatter.redirect}>{frontmatter.redirect}</Link>
+            </p>
           </>
-        }
+        )}
         <div className={styles.content}>
           <MDXRenderer>{body}</MDXRenderer>
         </div>

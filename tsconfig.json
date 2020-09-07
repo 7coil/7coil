@@ -2,17 +2,10 @@
   "compilerOptions": {
     "target": "ES5",
     "module": "commonjs",
-    "lib": [
-      "ES5",
-      "dom",
-      "ES2019",
-    ],
+    "lib": ["ES5", "dom", "ES2019"],
     "jsx": "react",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "typeRoots": [
-      "./node_modules/@types",
-      "./src/types"
-    ]
+    "typeRoots": ["./node_modules/@types", "./src/types"]
   }
 }

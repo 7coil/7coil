@@ -8,13 +8,16 @@ homepage: false
 GitTags can print messages as an embed.
 
 ## How to Use
+
 1. Create an embed!
-    - [This tool is very handy](https://leovoel.github.io/embed-visualizer/)
+   - [This tool is very handy](https://leovoel.github.io/embed-visualizer/)
 2. Copy the JSON (the stuff on the left) and put that into a tag file.
 3. Execute the tag
 
 ## Examples
+
 ## Random Winner of the Day
+
 This example exploits Handlebars as well as JSON at the same time, to produce a random winner every day.
 The `dayRandom` variable is a number between `0` and `1`.
 

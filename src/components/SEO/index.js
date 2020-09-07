@@ -5,15 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import PropTypes from "prop-types";
-import React from "react";
-import { Helmet } from "react-helmet";
+import PropTypes from 'prop-types'
+import React from 'react'
+import { Helmet } from 'react-helmet'
 
-const SEO = ({
-  title,
-  description,
-  image
-}) => {
+const SEO = ({ title, description, image }) => {
   return (
     <Helmet>
       {title && <title>{title}</title>}
@@ -34,4 +30,4 @@ SEO.propTypes = {
   title: PropTypes.string,
 }
 
-export default SEO;
+export default SEO

@@ -1,8 +1,8 @@
-import { graphql } from 'gatsby';
-import { MDXRenderer } from 'gatsby-plugin-mdx';
-import React from 'react';
-import Layout from '../../components/Layout';
-import SEO from '../../components/SEO';
+import { graphql } from 'gatsby'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
+import React from 'react'
+import Layout from '../../components/Layout'
+import SEO from '../../components/SEO'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -14,7 +14,9 @@ export default function Template({
       <SEO
         title={frontmatter.title}
         description={frontmatter.description}
-        image={frontmatter.image ? frontmatter.image.childImageSharp.fluid.src : null}
+        image={
+          frontmatter.image ? frontmatter.image.childImageSharp.fluid.src : null
+        }
       />
       <MDXRenderer>{body}</MDXRenderer>
     </Layout>

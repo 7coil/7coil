@@ -22,7 +22,9 @@ Additional tools are also available with `handlebars-helpers`.
 - `math`
 
 ## Examples
+
 ### Numbered list with adding
+
 ```handlebars
 {{#repeat 3}}{{add this 1}}. CircuitRCAY is a meme
 {{/repeat}}
@@ -32,26 +34,34 @@ Additional tools are also available with `handlebars-helpers`.
 - `add` adds `1` and `this` together
 
 ### Timestamp
+
 ```handlebars
 {{timestamp}}
 ```
+
 - This is the UNIX time when the message was sent
 
 ### 5 Years ago
+
 ```handlebars
 {{moment "5 years ago" "YYYY"}}
 ```
+
 - I don't even know how Moment.js works
 
 ### Floor of 3.14
+
 ```handlebars
 {{floor 3.14}}
 ```
+
 - Rounds down `3.14` to `3`
 
 ### Author ID
+
 ```handlebars
 {{get 'id' author}}
 ```
+
 - Your ID. Can be surrounded with `<@` and `>` to make a mention like this: <@{{get 'id' author}}>
 - Uses handlebars-helpers `get` to get the ID of the author object.

@@ -20,24 +20,30 @@ DiscordForOffice is a family of extensions for the Microsoft Office suite, which
 ![A screenshot of an example embed that may be displayed on your Discord profile.](./Discord_QUpmLv9epn.png)
 
 Supported Office Applications:
+
 - Microsoft Word
 - Microsoft Excel
 - Microsoft PowerPoint
 - Microsoft Outlook
 
 Not (Yet) Supported Applications:
+
 - Microsoft Visio
 
 Not Supported Applications:
+
 - Microsoft OneNote
 
 ## Installation
+
 ### Step 1: Add `office.terminal.ink` to your trusted internet sites
+
 To ensure untrusted applications from being executed on your computer,
 Microsoft do not allow the installation of applications not signed for,
 or not in your "Trusted Internet Sites" list.
 
 To add our link to your list:
+
 - Open Internet Options in the Start Menu
 - Enter the Security tab
 - Click on Trusted Sites
@@ -45,14 +51,18 @@ To add our link to your list:
 - Add `https://office.terminal.ink` to the list of trusted sites
 
 ### Step 2: Download and install DiscordForOffice
+
 Find downloads in our [GitHub Releases](https://github.com/Terminal/DiscordForOffice/releases) page.
 
 ## Issues
+
 ### 2016/2019 Differentiation
+
 The version number of Microsoft Office 2016 and 2019 are shared, and not different like past versions of Office.
 There is currently no differentiation in the software as a result.
 
 ## Licence
+
 ```
 MIT License
 

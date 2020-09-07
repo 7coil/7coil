@@ -1,6 +1,6 @@
-import { graphql, StaticQuery } from "gatsby";
-import React, { Component } from 'react';
-import styles from './index.module.scss';
+import { graphql, StaticQuery } from 'gatsby'
+import React, { Component } from 'react'
+import styles from './index.module.scss'
 
 class Experiences extends Component {
   render() {
@@ -10,16 +10,8 @@ class Experiences extends Component {
           query {
             allMdx(
               filter: {
-                fields: {
-                  template: {
-                    in: ["experiences"]
-                  }
-                }
-                frontmatter: {
-                  homepage: {
-                    eq: true
-                  }
-                }
+                fields: { template: { in: ["experiences"] } }
+                frontmatter: { homepage: { eq: true } }
               }
             ) {
               edges {
@@ -37,30 +29,30 @@ class Experiences extends Component {
             }
           }
         `}
-        render={data => (
+        render={(data) => (
           <div className={styles.cards}>
-            {
-              data.allMdx.edges
-                .map(edge => edge.node)
-                .map((page, index) => {
-                  return (
-                    <div className={styles.card} key={index}>
-                      <div className={styles.cardHeading}>
-                        <span className={styles.cardTitle}>{page.frontmatter.title}</span>
-                        <span>{page.frontmatter.period}</span>
-                      </div>
-                      <p className={styles.cardDescription}>{page.frontmatter.description}</p>
+            {data.allMdx.edges
+              .map((edge) => edge.node)
+              .map((page, index) => {
+                return (
+                  <div className={styles.card} key={index}>
+                    <div className={styles.cardHeading}>
+                      <span className={styles.cardTitle}>
+                        {page.frontmatter.title}
+                      </span>
+                      <span>{page.frontmatter.period}</span>
                     </div>
-                  )
-                })
-            }
+                    <p className={styles.cardDescription}>
+                      {page.frontmatter.description}
+                    </p>
+                  </div>
+                )
+              })}
           </div>
         )}
       />
-
-
     )
   }
 }
 
-export { Experiences };
+export { Experiences }

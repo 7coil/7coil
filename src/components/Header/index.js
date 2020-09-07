@@ -1,8 +1,8 @@
-import React from 'react';
-import styles from './index.module.scss';
-import PaddingContainer from '../PaddingContainer';
-import { Link } from 'gatsby';
-import CombineStyles from '../../helpers/CombineStyles';
+import React from 'react'
+import styles from './index.module.scss'
+import PaddingContainer from '../PaddingContainer'
+import { Link } from 'gatsby'
+import CombineStyles from '../../helpers/CombineStyles'
 
 const Header = ({ className }) => (
   <header className={CombineStyles(styles.header, className)}>
@@ -12,6 +12,6 @@ const Header = ({ className }) => (
       </Link>
     </PaddingContainer>
   </header>
-);
+)
 
-export default Header;
+export default Header

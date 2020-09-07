@@ -19,22 +19,26 @@ image: ./Discord_7KCTvP5Guo.png
 GitTags is a GitHub based Discord Bot, which retrieves tag information from any public GitHub repository.
 
 ## How to Use
+
 1. Create a public GitHub repository
 2. Create a folder within it named `tags`
 3. Create any file within the folder. This filename will be the name of the tag
 4. Tell the bot to retrieve the tag, with the `git>[name of file]` command.
 
 ## Advanced Features
+
 - [Handlebars](handlebars)
 - [JSON](json)
 
 ## Commands
+
 In order to execute administrative commands, a different prefix is used to differentiate it from regular tags.
 
 - Admin: `git<[command]`
 - Retrieve Tag: `git>[name of file]`
 
 ## Administrative Commands
+
 - `git<set`
   - Use the default GitHub repository.
 - `git<set [owner]`
@@ -45,5 +49,6 @@ In order to execute administrative commands, a different prefix is used to diffe
   - Get information about where GitTags is currently pointing to
 
 ### Tag command
+
 - `git>[tag]`
   - Obtain text with the tag name

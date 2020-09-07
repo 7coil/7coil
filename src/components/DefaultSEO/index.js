@@ -5,16 +5,14 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import { Helmet } from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
-import { Location } from '@reach/router';
-import favicon from './favicon.png';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Helmet } from 'react-helmet'
+import { useStaticQuery, graphql } from 'gatsby'
+import { Location } from '@reach/router'
+import favicon from './favicon.png'
 
-const DefaultSEO = ({
-  lang = 'en-GB'
-}) => {
+const DefaultSEO = ({ lang = 'en-GB' }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -32,8 +30,8 @@ const DefaultSEO = ({
 
   return (
     <Location>
-      {locationProps => {
-        const metaTags = [];
+      {(locationProps) => {
+        const metaTags = []
 
         metaTags.push(
           {
@@ -46,11 +44,11 @@ const DefaultSEO = ({
           },
           {
             property: 'og:url',
-            content: `${site.siteMetadata.siteUrl}${locationProps.location.pathname}`
+            content: `${site.siteMetadata.siteUrl}${locationProps.location.pathname}`,
           },
           {
             property: 'og:site_name',
-            content: site.siteMetadata.title
+            content: site.siteMetadata.title,
           },
           {
             property: `og:description`,
@@ -58,7 +56,7 @@ const DefaultSEO = ({
           },
           {
             property: 'og:image',
-            content: './icon.png'
+            content: './icon.png',
           },
           {
             name: `twitter:card`,
@@ -87,7 +85,12 @@ const DefaultSEO = ({
             defaultTitle={site.siteMetadata.title}
             meta={metaTags}
           >
-            <link rel="alternative" type="application/rss+xml" title="The Beacon RSS Feed" href="/rss.xml" />
+            <link
+              rel="alternative"
+              type="application/rss+xml"
+              title="The Beacon RSS Feed"
+              href="/rss.xml"
+            />
             <link rel="shortcut icon" type="image/png" href={favicon} />
           </Helmet>
         )

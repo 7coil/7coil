@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { FaTwitter, FaEnvelope, FaGithub } from 'react-icons/fa'
 
 export default () => (
@@ -11,7 +11,7 @@ export default () => (
         <td>
           <a target="_blank" rel="noreferrer" href="https://github.com/7coil">
             7coil
-              </a>
+          </a>
         </td>
       </tr>
       <tr>
@@ -19,9 +19,13 @@ export default () => (
           <FaTwitter />
         </td>
         <td>
-          <a target="_blank" rel="noreferrer" href="https://twitter.com/sevencoil">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://twitter.com/sevencoil"
+          >
             sevencoil
-              </a>
+          </a>
         </td>
       </tr>
       <tr>
@@ -31,7 +35,7 @@ export default () => (
         <td>
           <a href="mailto:leondrolio@leondrolio.com">
             leondrolio@leondrolio.com
-              </a>
+          </a>
         </td>
       </tr>
     </tbody>

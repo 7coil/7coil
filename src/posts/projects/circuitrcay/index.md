@@ -22,6 +22,7 @@ CircuitRCAY is a third party application for controlling laundry controlled by G
 To produce this, a matter of debugging, reverse engineering and spending money was done to understand, and be able to reimplement a replacement.
 
 ---
+
 Reverse engineering may not be legal in the country you are living in.
 Before reproducing the steps found in this, frankly, terrible blog, try asking a lawyer.
 
@@ -30,6 +31,7 @@ These findings were performed before ~~the UK left the EU~~ THE EVENT on the 31s
 ---
 
 ## Motivation
+
 The Circuit (laundry) app currently on the Android Market is a usable application for university students across the UK.
 However, I believe that there are some vital features missing from the software.
 
@@ -40,11 +42,12 @@ However, I believe that there are some vital features missing from the software.
 Because of this, I started working on an unofficial Circuit client, for both web browsers, and Android.
 
 ## Web
+
 - Link: [app.circuitrcay.com](https://app.circuitrcay.com/)
 
 ## Android
+
 - Link: [github.com/7coil/circuitrcay-flutter/releases](https://github.com/7coil/circuitrcay-flutter/releases)
 
 The Android version of CircuitRCAY uses Google's Flutter UI framework to create a better looking application compared to the original.
 The adoption of Flutter also potentially means an iOS application can also be created, but would be impractical, due to cost reasons.
-

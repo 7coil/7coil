@@ -1,8 +1,8 @@
-import React from 'react';
-import { FaReact , FaJs } from 'react-icons/fa'
+import React from 'react'
+import { FaReact, FaJs } from 'react-icons/fa'
 
 const ProgrammingLanguageIcon = ({ language }) => {
-  switch(language) {
+  switch (language) {
     case 'javascript':
       return <FaJs />
     case 'react':
@@ -16,7 +16,4 @@ const ProgrammingLanguageIcon = ({ language }) => {
   }
 }
 
-export {
-  ProgrammingLanguageIcon
-};
-
+export { ProgrammingLanguageIcon }

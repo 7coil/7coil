@@ -1,10 +1,10 @@
-import { graphql } from 'gatsby';
-import React from "react";
-import { Experiences } from "../components/Experiences";
-import Layout from "../components/Layout";
-import PaddingContainer from "../components/PaddingContainer";
-import { Projects } from "../components/Projects";
-import { WelcomeWheel } from '../components/WelcomeWheel';
+import { graphql } from 'gatsby'
+import React from 'react'
+import { Experiences } from '../components/Experiences'
+import Layout from '../components/Layout'
+import PaddingContainer from '../components/PaddingContainer'
+import { Projects } from '../components/Projects'
+import { WelcomeWheel } from '../components/WelcomeWheel'
 
 const IndexPage = ({ data }) => (
   <Layout noHeader={true}>
@@ -19,14 +19,14 @@ const IndexPage = ({ data }) => (
 )
 
 export const query = graphql`
-query {
-  site {
-    siteMetadata {
-      title
-      description
+  query {
+    site {
+      siteMetadata {
+        title
+        description
+      }
     }
   }
-}
 `
 
 export default IndexPage
