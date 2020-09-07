@@ -14,9 +14,7 @@ export default function Template({
       <SEO
         title={frontmatter.title}
         description={frontmatter.description}
-        image={
-          frontmatter.image ? frontmatter.image.childImageSharp.fluid.src : null
-        }
+        image={frontmatter.image?.childImageSharp.fluid.src}
       />
       <MDXRenderer>{body}</MDXRenderer>
     </Layout>
