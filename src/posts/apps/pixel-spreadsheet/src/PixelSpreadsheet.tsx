@@ -153,6 +153,7 @@ class PixelSpreadsheet extends Component<{}, { height: number, image: HTMLImageE
       }
     }
   }
+  
   render() {
     return (
       <PaddingContainer>
@@ -163,10 +164,13 @@ class PixelSpreadsheet extends Component<{}, { height: number, image: HTMLImageE
         <p>
           This version uses <b>exceljs</b> and HTML canvas to convert images into Microsoft Excel spreadsheets. No images are sent to any external servers, as processing is all done on your computer.
         </p>
+        <p>
+          Image of Tapir in page screenshot by <a rel="nofollow" href="https://www.flickr.com/photos/dsifry/">David Sifry</a> - <a rel="nofollow"  href="https://www.flickr.com/photos/dsifry/3669848717/">Flickr</a>, <a href="https://creativecommons.org/licenses/by/2.0" title="Creative Commons Attribution 2.0">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=31099350">Link</a>
+        </p>
         <h2>Properties</h2>
         <div className={styles.inputFields}>
           <div className={styles.inputField}>
-            <label htmlFor="fileUpload">File Upload</label>
+            <label htmlFor="fileUpload">Upload your own image!</label>
             <input name="fileUpload" type="file" onChange={this.onFileChange}></input>
           </div>
           <div className={styles.inputField}>
