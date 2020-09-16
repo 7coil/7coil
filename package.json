@@ -33,6 +33,7 @@
     "@types/node": "^14.6.4",
     "@types/react": "^16.9.49",
     "@types/react-dom": "^16.9.8",
+    "cross-env": "^7.0.2",
     "prettier": "^2.1.1"
   },
   "keywords": [
@@ -41,7 +42,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "build:prefixed": "gatsby build --prefix-paths",
+    "build:prefixed": "cross-env SITE_HEADING=personal.rhul.ac.uk/zhac/240 gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\" --single-quote",
     "start": "npm run develop",

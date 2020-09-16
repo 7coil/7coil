@@ -5,6 +5,7 @@ module.exports = {
     description: 'Student and Developer',
     author: 'Leondro Lio',
     siteUrl: 'https://leondrolio.com',
+    siteHeading: process.env.SITE_HEADING || 'leondrolio.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

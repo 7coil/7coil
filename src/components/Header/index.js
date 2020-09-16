@@ -1,14 +1,29 @@
 import React from 'react'
 import styles from './index.module.scss'
 import PaddingContainer from '../PaddingContainer'
-import { Link } from 'gatsby'
+import { graphql, Link, StaticQuery } from 'gatsby'
 import CombineStyles from '../../helpers/CombineStyles'
 
 const Header = ({ className }) => (
   <header className={CombineStyles(styles.header, className)}>
     <PaddingContainer>
       <Link to="/">
-        <span className={styles.title}>leondrolio.com</span>
+        <StaticQuery
+          query={graphql`
+            query {
+              site {
+                siteMetadata {
+                  siteHeading
+                }
+              }
+            }
+          `}
+          render={(data) => (
+            <span className={styles.title}>
+              {data.site.siteMetadata.siteHeading}
+            </span>
+          )}
+        />
       </Link>
     </PaddingContainer>
   </header>
