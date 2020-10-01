@@ -11,12 +11,16 @@ For every 100 coil points, you may redeem a free packet of crisps, redeemable on
 
 ## Leaderboard
 
-Points | Name
------- | ----------------
-14     | James (Do It For Denmark#8916)
-11     | (Cynical Sheep#3986)
-7      | (Anees#1298)
--7     | (0x2F#5335)
+Points      | Name
+----------- | ----------------
+14.14       | Megi (megui#5908)
+14          | James (Do It For Denmark#8916)
+11          | (Cynical Sheep#3986)
+7.7         | Dave (beholderstories#5626)
+7           | (Anees#1298)
+7/14        | Tom (Ayw#9278)
+-7          | (0x2F#5335)
+-2147483648 | Joshua (BlackArrow#1019)
 
 ## Terms and Conditions
 
