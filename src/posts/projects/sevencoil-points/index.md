@@ -14,6 +14,7 @@ For every 100 coil points, you may redeem a free packet of crisps, redeemable on
 Points | Name
 ------ | ----------------
 14     | James (Do It For Denmark#8916)
+11     | (Cynical Sheep#3986)
 7      | (Anees#1298)
 -7     | (0x2F#5335)
 
