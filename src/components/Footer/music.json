@@ -1,488 +1,614 @@
 [
   {
-    "uri": "spotify:track:2rFRa1eJ8RqlINbJCZwdtt",
+    "artist": "GFRIEND",
     "name": "Glass Bead",
-    "artist": "GFRIEND",
-    "album": "GFRIEND 1st Mini Album 'Season Of Glass'"
+    "album": "GFRIEND 1st Mini Album 'Season Of Glass'",
+    "uri": "2rFRa1eJ8RqlINbJCZwdtt"
   },
   {
-    "uri": "spotify:track:6x7fux7bZEfnChKx3nhSZn",
+    "artist": "GFRIEND",
     "name": "Me Gustas Tu",
-    "artist": "GFRIEND",
-    "album": "GFRIEND 2nd Mini Album 'Flower Bud'"
+    "album": "GFRIEND 2nd Mini Album 'Flower Bud'",
+    "uri": "6x7fux7bZEfnChKx3nhSZn"
   },
   {
-    "uri": "spotify:track:2jL9sjFc2LZsQBGbQnrjXR",
+    "artist": "GFRIEND",
     "name": "Time for the moon night",
-    "artist": "GFRIEND",
-    "album": "GFRIEND The 6th Mini Album 'Time for the moon night'"
+    "album": "GFRIEND The 6th Mini Album 'Time for the moon night'",
+    "uri": "2jL9sjFc2LZsQBGbQnrjXR"
   },
   {
-    "uri": "spotify:track:5KnXbmxjbmXiuSmMclGOIi",
+    "artist": "GFRIEND",
     "name": "Love Bug",
-    "artist": "GFRIEND",
-    "album": "GFRIEND The 6th Mini Album 'Time for the moon night'"
+    "album": "GFRIEND The 6th Mini Album 'Time for the moon night'",
+    "uri": "5KnXbmxjbmXiuSmMclGOIi"
   },
   {
-    "uri": "spotify:track:1e7eOq89QU6vGYCJp9yW2L",
+    "artist": "GFRIEND",
     "name": "Sunrise",
-    "artist": "GFRIEND",
-    "album": "GFRIEND The 2nd Album 'Time for us'"
+    "album": "GFRIEND The 2nd Album 'Time for us'",
+    "uri": "1e7eOq89QU6vGYCJp9yW2L"
   },
   {
-    "uri": "spotify:track:3CVeGXpoPKJQ9JuhPp3mpL",
+    "artist": "GFRIEND",
     "name": "Rough",
-    "artist": "GFRIEND",
-    "album": "SNOWFLAKE"
+    "album": "SNOWFLAKE",
+    "uri": "3CVeGXpoPKJQ9JuhPp3mpL"
   },
   {
-    "uri": "spotify:track:2Oi0IO8K4BEbhPUdWcjNmv",
+    "artist": "GFRIEND",
     "name": "NAVILLERA",
-    "artist": "GFRIEND",
-    "album": "GFRIEND The 1st Album 'LOL'"
+    "album": "GFRIEND The 1st Album 'LOL'",
+    "uri": "2Oi0IO8K4BEbhPUdWcjNmv"
   },
   {
-    "uri": "spotify:track:1xwnvVY9gHdo69PuGQkG1U",
+    "artist": "GFRIEND",
     "name": "LOVE WHISPER",
-    "artist": "GFRIEND",
-    "album": "GFRIEND The 5th Mini Album <PARALLEL>"
+    "album": "GFRIEND The 5th Mini Album <PARALLEL>",
+    "uri": "1xwnvVY9gHdo69PuGQkG1U"
   },
   {
-    "uri": "spotify:track:2ZG2MBGBeBb6xdAy0Th9F9",
+    "artist": "GFRIEND",
     "name": "Labyrinth",
-    "artist": "GFRIEND",
-    "album": "回:LABYRINTH"
+    "album": "回:LABYRINTH",
+    "uri": "2ZG2MBGBeBb6xdAy0Th9F9"
   },
   {
-    "uri": "spotify:track:3ZWCWArPYr1v0iF763oSOz",
+    "artist": "GFRIEND",
     "name": "Crossroads",
-    "artist": "GFRIEND",
-    "album": "回:LABYRINTH"
+    "album": "回:LABYRINTH",
+    "uri": "3ZWCWArPYr1v0iF763oSOz"
   },
   {
-    "uri": "spotify:track:1P2oYaTIBRB4pYL28Ps5Mv",
+    "artist": "LOONA",
     "name": "ViViD",
-    "artist": "LOONA",
-    "album": "HeeJin"
+    "album": "HeeJin",
+    "uri": "1P2oYaTIBRB4pYL28Ps5Mv"
   },
   {
-    "uri": "spotify:track:1z1nsNEnhzTfH3CX7fcsaz",
+    "artist": "LOONA",
     "name": "I'll Be There",
-    "artist": "LOONA",
-    "album": "HyunJin"
+    "album": "HyunJin",
+    "uri": "1z1nsNEnhzTfH3CX7fcsaz"
   },
   {
-    "uri": "spotify:track:0KsPxLQtEvfb04Sx1pmUsL",
+    "artist": "LOONA",
     "name": "소년, 소녀",
-    "artist": "LOONA",
-    "album": "HaSeul"
+    "album": "HaSeul",
+    "uri": "0KsPxLQtEvfb04Sx1pmUsL"
   },
   {
-    "uri": "spotify:track:3DGKXLtVjawKFweymvHn84",
+    "artist": "LOONA",
     "name": "키스는 다음에",
-    "artist": "LOONA",
-    "album": "YeoJin"
+    "album": "YeoJin",
+    "uri": "3DGKXLtVjawKFweymvHn84"
   },
   {
-    "uri": "spotify:track:6f1PlxNaKfbbBosoRXmoAF",
+    "artist": "LOONA",
     "name": "My Melody",
-    "artist": "LOONA",
-    "album": "YeoJin"
+    "album": "YeoJin",
+    "uri": "6f1PlxNaKfbbBosoRXmoAF"
   },
   {
-    "uri": "spotify:track:5HGeTj4lVdLGed5c358q1f",
-    "name": "Everyday I Love You",
     "artist": "LOONA, HaSeul",
-    "album": "ViVi"
+    "name": "Everyday I Love You",
+    "album": "ViVi",
+    "uri": "5HGeTj4lVdLGed5c358q1f"
   },
   {
-    "uri": "spotify:track:26K21MUaPDTnzHqtiiffFv",
+    "artist": "LOONA",
     "name": "Eclipse",
-    "artist": "LOONA",
-    "album": "Kim Lip"
+    "album": "Kim Lip",
+    "uri": "26K21MUaPDTnzHqtiiffFv"
   },
   {
-    "uri": "spotify:track:1uNTfm5WZVGdig95SAXajH",
+    "artist": "LOONA",
     "name": "Singing in the Rain",
-    "artist": "LOONA",
-    "album": "JinSoul"
+    "album": "JinSoul",
+    "uri": "1uNTfm5WZVGdig95SAXajH"
   },
   {
-    "uri": "spotify:track:3GAKRdjL6Snq9C7u5tMC01",
+    "artist": "LOONA",
     "name": "Love Letter",
-    "artist": "LOONA",
-    "album": "JinSoul"
+    "album": "JinSoul",
+    "uri": "3GAKRdjL6Snq9C7u5tMC01"
   },
   {
-    "uri": "spotify:track:1H3i6WXxrJB7LEoH5iStvb",
+    "artist": "LOONA",
     "name": "Love Cherry Motion",
-    "artist": "LOONA",
-    "album": "Choerry"
+    "album": "Choerry",
+    "uri": "1H3i6WXxrJB7LEoH5iStvb"
   },
   {
-    "uri": "spotify:track:0Y1oSjd9U7Qy5t7EDjAjPq",
+    "artist": "LOONA",
     "name": "Puzzle",
-    "artist": "LOONA",
-    "album": "Choerry"
+    "album": "Choerry",
+    "uri": "0Y1oSjd9U7Qy5t7EDjAjPq"
   },
   {
-    "uri": "spotify:track:7eUtsnBNOWfWDObBZyU4F4",
+    "artist": "LOONA",
     "name": "new",
-    "artist": "LOONA",
-    "album": "Yves"
+    "album": "Yves",
+    "uri": "7eUtsnBNOWfWDObBZyU4F4"
   },
   {
-    "uri": "spotify:track:4ddaY4PJxvq47qIps1KQ6Q",
+    "artist": "LOONA",
     "name": "D-1",
-    "artist": "LOONA",
-    "album": "Yves"
+    "album": "Yves",
+    "uri": "4ddaY4PJxvq47qIps1KQ6Q"
   },
   {
-    "uri": "spotify:track:6SSC9KZQaxBdyipKRigrFC",
+    "artist": "LOONA",
     "name": "Heart Attack (츄)",
-    "artist": "LOONA",
-    "album": "Chuu"
+    "album": "Chuu",
+    "uri": "6SSC9KZQaxBdyipKRigrFC"
   },
   {
-    "uri": "spotify:track:1j3zXAq0W9cLIpiAXwcYXF",
+    "artist": "LOONA",
     "name": "Girl's Talk (이브, 츄)",
-    "artist": "LOONA",
-    "album": "Chuu"
+    "album": "Chuu",
+    "uri": "1j3zXAq0W9cLIpiAXwcYXF"
   },
   {
-    "uri": "spotify:track:1DzpZ8HBR0MgGkZDhAdd7f",
+    "artist": "LOONA",
     "name": "One & Only (Go Won)",
-    "artist": "LOONA",
-    "album": "Go Won"
+    "album": "Go Won",
+    "uri": "1DzpZ8HBR0MgGkZDhAdd7f"
   },
   {
-    "uri": "spotify:track:1tLmp8dEhaHvU0jm2aG6sS",
+    "artist": "LOONA",
     "name": "See Saw (Chuu, Go Won) (Feat. Kim Lip)",
-    "artist": "LOONA",
-    "album": "Go Won"
+    "album": "Go Won",
+    "uri": "1tLmp8dEhaHvU0jm2aG6sS"
   },
   {
-    "uri": "spotify:track:5UUeEljsNQroCUNId8DIV6",
+    "artist": "LOONA",
     "name": "Egoist (Olivia Hye) (Feat. JinSoul)",
-    "artist": "LOONA",
-    "album": "Olivia Hye"
+    "album": "Olivia Hye",
+    "uri": "5UUeEljsNQroCUNId8DIV6"
   },
   {
-    "uri": "spotify:track:6cfacimNXWogsp6DtJflyL",
+    "artist": "LOONA",
     "name": "Rosy (Go Won, Olivia Hye) (Feat. HeeJin)",
-    "artist": "LOONA",
-    "album": "Olivia Hye"
+    "album": "Olivia Hye",
+    "uri": "6cfacimNXWogsp6DtJflyL"
   },
   {
-    "uri": "spotify:track:2hynpFtQsg5wqVevY8z6G7",
+    "artist": "LOONA",
     "name": "favOriTe",
-    "artist": "LOONA",
-    "album": "favOriTe"
+    "album": "favOriTe",
+    "uri": "2hynpFtQsg5wqVevY8z6G7"
   },
   {
-    "uri": "spotify:track:0RqzUS7AkBhQDrBxcGFeDv",
+    "artist": "LOONA",
     "name": "Hi High",
-    "artist": "LOONA",
-    "album": "[+ +]"
+    "album": "[+ +]",
+    "uri": "0RqzUS7AkBhQDrBxcGFeDv"
   },
   {
-    "uri": "spotify:track:5jhYykolbcG1T9wZSyvhp5",
+    "artist": "LOONA",
     "name": "Butterfly",
-    "artist": "LOONA",
-    "album": "[X X]"
+    "album": "[X X]",
+    "uri": "5jhYykolbcG1T9wZSyvhp5"
   },
   {
-    "uri": "spotify:track:33PStuI2gJCeZcYQIOHXAU",
+    "artist": "WJSN",
     "name": "BUTTERFLY",
-    "artist": "WJSN",
-    "album": "Neverland"
+    "album": "Neverland",
+    "uri": "33PStuI2gJCeZcYQIOHXAU"
   },
   {
-    "uri": "spotify:track:1FJPXCXDD9yt9naw8R5bfs",
+    "artist": "LOONA",
     "name": "365",
-    "artist": "LOONA",
-    "album": "365"
+    "album": "365",
+    "uri": "1FJPXCXDD9yt9naw8R5bfs"
   },
   {
-    "uri": "spotify:track:7w3pIUjz7BTTqj9uAws40m",
+    "artist": "LOONA",
     "name": "So What",
-    "artist": "LOONA",
-    "album": "[#]"
+    "album": "[#]",
+    "uri": "7w3pIUjz7BTTqj9uAws40m"
   },
   {
-    "uri": "spotify:track:6LOPo5liG9RE6pBKTVUoEm",
+    "artist": "LOOΠΔ 1/3",
     "name": "Sonatine",
-    "artist": "LOOΠΔ 1/3",
-    "album": "Love & Evil"
+    "album": "Love & Evil",
+    "uri": "6LOPo5liG9RE6pBKTVUoEm"
   },
   {
-    "uri": "spotify:track:3WALXPWdol0F0quHImXEYm",
+    "artist": "LOOΠΔ 1/3",
     "name": "Rain 51db",
-    "artist": "LOOΠΔ 1/3",
-    "album": "Love & Evil"
+    "album": "Love & Evil",
+    "uri": "3WALXPWdol0F0quHImXEYm"
   },
   {
-    "uri": "spotify:track:3isW89jO5h49OoCHpqediW",
+    "artist": "LOOΠΔ 1/3",
     "name": "Love & Live",
-    "artist": "LOOΠΔ 1/3",
-    "album": "Love & Evil"
+    "album": "Love & Evil",
+    "uri": "3isW89jO5h49OoCHpqediW"
   },
   {
-    "uri": "spotify:track:5K8aKuDFrWIHyNiPH1slWv",
+    "artist": "LOOΠΔ 1/3",
     "name": "You and Me Together",
-    "artist": "LOOΠΔ 1/3",
-    "album": "Love & Evil"
+    "album": "Love & Evil",
+    "uri": "5K8aKuDFrWIHyNiPH1slWv"
   },
   {
-    "uri": "spotify:track:4UN3kpjB0RoGXUx2zyNzK0",
+    "artist": "LOOΠΔ 1/3",
     "name": "Valentine Girl",
-    "artist": "LOOΠΔ 1/3",
-    "album": "Love & Evil"
+    "album": "Love & Evil",
+    "uri": "4UN3kpjB0RoGXUx2zyNzK0"
   },
   {
-    "uri": "spotify:track:5fgpCIjBJ098E9zqN9DS87",
+    "artist": "LOOΠΔ / ODD EYE CIRCLE",
     "name": "Sweet Crazy Love",
-    "artist": "LOOΠΔ / ODD EYE CIRCLE",
-    "album": "Max & Match"
+    "album": "Max & Match",
+    "uri": "5fgpCIjBJ098E9zqN9DS87"
   },
   {
-    "uri": "spotify:track:5OnchRw2yAuIAwp2RYLCBa",
+    "artist": "LOOΠΔ / ODD EYE CIRCLE",
     "name": "Girl Front",
-    "artist": "LOOΠΔ / ODD EYE CIRCLE",
-    "album": "Max & Match"
+    "album": "Max & Match",
+    "uri": "5OnchRw2yAuIAwp2RYLCBa"
   },
   {
-    "uri": "spotify:track:7xkpUBffveGC99B2UYIuFy",
+    "artist": "LOOΠΔ / ODD EYE CIRCLE",
     "name": "LOONATIC Eng. Ver.",
-    "artist": "LOOΠΔ / ODD EYE CIRCLE",
-    "album": "LOONATIC Eng. Ver."
+    "album": "LOONATIC Eng. Ver.",
+    "uri": "7xkpUBffveGC99B2UYIuFy"
   },
   {
-    "uri": "spotify:track:4rKEmhNA19JezqVsSQS4yo",
-    "name": "love4eva (feat. Grimes)",
     "artist": "LOONA/yyxy",
-    "album": "beauty&thebeat"
+    "name": "love4eva (feat. Grimes)",
+    "album": "beauty&thebeat",
+    "uri": "4rKEmhNA19JezqVsSQS4yo"
   },
   {
-    "uri": "spotify:track:1Jk8M1iFFoTcL0IMuDHdsJ",
+    "artist": "TWICE",
     "name": "Like Ooh-Ahh",
-    "artist": "TWICE",
-    "album": "The Story Begins"
+    "album": "The Story Begins",
+    "uri": "1Jk8M1iFFoTcL0IMuDHdsJ"
   },
   {
-    "uri": "spotify:track:4CeE0LU1SkHshwHeMfPwqk",
+    "artist": "TWICE",
+    "name": "Do It Again",
+    "album": "The Story Begins",
+    "uri": "3VTMapwxIvpIUkokdErpoM"
+  },
+  {
+    "artist": "TWICE",
     "name": "CHEER UP",
-    "artist": "TWICE",
-    "album": "Page Two"
+    "album": "Page Two",
+    "uri": "4CeE0LU1SkHshwHeMfPwqk"
   },
   {
-    "uri": "spotify:track:5KfbFCacFuNJGdK2zvovcF",
+    "artist": "TWICE",
     "name": "TT",
-    "artist": "TWICE",
-    "album": "Twicecoaster: Lane 1"
+    "album": "Twicecoaster: Lane 1",
+    "uri": "5KfbFCacFuNJGdK2zvovcF"
   },
   {
-    "uri": "spotify:track:1PRI1XNUQDBjjm6p0Ya6aD",
+    "artist": "TWICE",
     "name": "Jelly Jelly",
-    "artist": "TWICE",
-    "album": "Twicecoaster: Lane 1"
+    "album": "Twicecoaster: Lane 1",
+    "uri": "1PRI1XNUQDBjjm6p0Ya6aD"
   },
   {
-    "uri": "spotify:track:1uwLMwgqPprCs5Q0OPRKI7",
+    "artist": "TWICE",
+    "name": "Pit-a-Pat",
+    "album": "Twicecoaster: Lane 1",
+    "uri": "5w3R1N8AV5Xa5wHuoQ2srY"
+  },
+  {
+    "artist": "TWICE",
     "name": "Signal",
-    "artist": "TWICE",
-    "album": "SIGNAL"
+    "album": "SIGNAL",
+    "uri": "1uwLMwgqPprCs5Q0OPRKI7"
   },
   {
-    "uri": "spotify:track:2dYl2SI3sLyUffzxVBaZBz",
+    "artist": "TWICE",
     "name": "Knock Knock",
-    "artist": "TWICE",
-    "album": "Twicecoaster: Lane 2"
+    "album": "Twicecoaster: Lane 2",
+    "uri": "2dYl2SI3sLyUffzxVBaZBz"
   },
   {
-    "uri": "spotify:track:0ORQJClgATvuDDADfC9oGM",
+    "artist": "TWICE",
     "name": "Likey",
-    "artist": "TWICE",
-    "album": "Merry & Happy"
+    "album": "Merry & Happy",
+    "uri": "0ORQJClgATvuDDADfC9oGM"
   },
   {
-    "uri": "spotify:track:0O9OnWm3z2B2TjvE051AMV",
+    "artist": "TWICE",
     "name": "Heart Shaker",
-    "artist": "TWICE",
-    "album": "Merry & Happy"
+    "album": "Merry & Happy",
+    "uri": "0O9OnWm3z2B2TjvE051AMV"
   },
   {
-    "uri": "spotify:track:5FoRWs4Z9XbPpG4uPPeiV5",
+    "artist": "TWICE",
     "name": "Turtle",
-    "artist": "TWICE",
-    "album": "Merry & Happy"
+    "album": "Merry & Happy",
+    "uri": "5FoRWs4Z9XbPpG4uPPeiV5"
   },
   {
-    "uri": "spotify:track:7ogyhvfoPn27BDswIUHMm1",
+    "artist": "TWICE",
     "name": "What is Love",
-    "artist": "TWICE",
-    "album": "What Is Love"
+    "album": "What Is Love",
+    "uri": "7ogyhvfoPn27BDswIUHMm1"
   },
   {
-    "uri": "spotify:track:3t723PlEADna6GjgquoMRW",
+    "artist": "TWICE",
     "name": "Dance The Night Away",
-    "artist": "TWICE",
-    "album": "Summer Nights"
+    "album": "Summer Nights",
+    "uri": "3t723PlEADna6GjgquoMRW"
   },
   {
-    "uri": "spotify:track:0Ll92eLIHWY5gey1ISNMPi",
+    "artist": "TWICE",
+    "name": "FANCY",
+    "album": "FANCY YOU",
+    "uri": "0W5hTAWn8Tq0Qfhg1XP3YW"
+  },
+  {
+    "artist": "TWICE",
     "name": "YES or YES",
-    "artist": "TWICE",
-    "album": "YES or YES"
+    "album": "YES or YES",
+    "uri": "0Ll92eLIHWY5gey1ISNMPi"
   },
   {
-    "uri": "spotify:track:2HtcPHFdo7eu4Ilbvb0BVI",
+    "artist": "TWICE",
     "name": "Feel Special",
-    "artist": "TWICE",
-    "album": "Feel Special"
+    "album": "Feel Special",
+    "uri": "2HtcPHFdo7eu4Ilbvb0BVI"
   },
   {
-    "uri": "spotify:track:2YYlTkcmc7iSQmYfJER3eh",
+    "artist": "TWICE",
     "name": "BREAKTHROUGH - Korean Version",
-    "artist": "TWICE",
-    "album": "Feel Special"
+    "album": "Feel Special",
+    "uri": "2YYlTkcmc7iSQmYfJER3eh"
   },
   {
-    "uri": "spotify:track:3omvXShuRPM3zbDpWYqf5g",
+    "artist": "TWICE",
     "name": "MORE & MORE",
+    "album": "MORE & MORE",
+    "uri": "3omvXShuRPM3zbDpWYqf5g"
+  },
+  {
     "artist": "TWICE",
-    "album": "MORE & MORE"
+    "name": "I WANT YOU BACK",
+    "album": "BDZ",
+    "uri": "54w5JUSWCJu64pnw8alImP"
   },
   {
-    "uri": "spotify:track:0S6giCcEzgm7SzK6cczMKc",
+    "artist": "Cherry Bullet",
     "name": "Q&A",
-    "artist": "Cherry Bullet",
-    "album": "Cherry Bullet 1st Single Album Let's Play Cherry Bullet"
+    "album": "Cherry Bullet 1st Single Album Let's Play Cherry Bullet",
+    "uri": "0S6giCcEzgm7SzK6cczMKc"
   },
   {
-    "uri": "spotify:track:58Cg9cOafaipuT7OvRLUQR",
+    "artist": "Cherry Bullet",
     "name": "Really Really",
-    "artist": "Cherry Bullet",
-    "album": "LOVE ADVENTURE"
+    "album": "LOVE ADVENTURE",
+    "uri": "58Cg9cOafaipuT7OvRLUQR"
   },
   {
-    "uri": "spotify:track:6KxACudfT4vVXnDUkjU6lN",
-    "name": "Hands Up",
-    "artist": "Cherry Bullet",
-    "album": "Hands Up"
-  },
-  {
-    "uri": "spotify:track:2ZVQY4mXF3eHTu1RBnBZl0",
+    "artist": "OH MY GIRL",
     "name": "Secret Garden",
-    "artist": "OH MY GIRL",
-    "album": "SECRET GARDEN"
+    "album": "SECRET GARDEN",
+    "uri": "2ZVQY4mXF3eHTu1RBnBZl0"
   },
   {
-    "uri": "spotify:track:0QQe9wGk7aZFa5gOAwAJ0w",
+    "artist": "OH MY GIRL",
     "name": "BUNGEE (Fall in Love)",
-    "artist": "OH MY GIRL",
-    "album": "OH MY GIRL SUMMER PACKAGE [FALL IN LOVE]"
+    "album": "OH MY GIRL SUMMER PACKAGE [FALL IN LOVE]",
+    "uri": "0QQe9wGk7aZFa5gOAwAJ0w"
   },
   {
-    "uri": "spotify:track:5joNJn9LUvYcamWwa2iYCL",
+    "artist": "OH MY GIRL",
     "name": "Nonstop",
-    "artist": "OH MY GIRL",
-    "album": "NONSTOP"
+    "album": "NONSTOP",
+    "uri": "5joNJn9LUvYcamWwa2iYCL"
   },
   {
-    "uri": "spotify:track:0GU5GuJQQEnnREO2FxnVPT",
+    "artist": "ITZY",
     "name": "달라달라 (DALLA DALLA)",
-    "artist": "ITZY",
-    "album": "IT'z Different"
+    "album": "IT'z Different",
+    "uri": "0GU5GuJQQEnnREO2FxnVPT"
   },
   {
-    "uri": "spotify:track:7zFBtYAVURF3bUVqEQ6UUu",
+    "artist": "ITZY",
     "name": "ICY",
-    "artist": "ITZY",
-    "album": "IT'z ICY"
+    "album": "IT'z ICY",
+    "uri": "7zFBtYAVURF3bUVqEQ6UUu"
   },
   {
-    "uri": "spotify:track:6tCssnvTUREcperDOUTqvA",
+    "artist": "ITZY",
     "name": "WANNABE",
-    "artist": "ITZY",
-    "album": "It'z Me"
+    "album": "It'z Me",
+    "uri": "6tCssnvTUREcperDOUTqvA"
   },
   {
-    "uri": "spotify:track:381g0b6QZxC13SzA2HRMIc",
+    "artist": "Red Velvet",
     "name": "Power Up",
-    "artist": "Red Velvet",
-    "album": "Summer Magic - Summer Mini Album"
+    "album": "Summer Magic - Summer Mini Album",
+    "uri": "381g0b6QZxC13SzA2HRMIc"
   },
   {
-    "uri": "spotify:track:64iDjAuWDogVhuoWhKklF9",
+    "artist": "Red Velvet",
     "name": "Dumb Dumb",
-    "artist": "Red Velvet",
-    "album": "The Red - The 1st Album"
+    "album": "The Red - The 1st Album",
+    "uri": "64iDjAuWDogVhuoWhKklF9"
   },
   {
-    "uri": "spotify:track:7nKQ5WAcjnG48knyLuo8gO",
+    "artist": "Red Velvet",
     "name": "빨간 맛 Red Flavor",
-    "artist": "Red Velvet",
-    "album": "The Red Summer - Summer Mini Album"
+    "album": "The Red Summer - Summer Mini Album",
+    "uri": "7nKQ5WAcjnG48knyLuo8gO"
   },
   {
-    "uri": "spotify:track:6FoI3qwCRq0el1RYKeVGSx",
+    "artist": "fromis_9",
     "name": "LOVE BOMB",
-    "artist": "fromis_9",
-    "album": "From.9"
+    "album": "From.9",
+    "uri": "6FoI3qwCRq0el1RYKeVGSx"
   },
   {
-    "uri": "spotify:track:3PIzI4Bl2b7oZloFWTPAna",
+    "artist": "fromis_9",
     "name": "To Heart",
-    "artist": "fromis_9",
-    "album": "To. Heart"
+    "album": "To. Heart",
+    "uri": "3PIzI4Bl2b7oZloFWTPAna"
   },
   {
-    "uri": "spotify:track:30x5JeY6aI3nIJF6S97Jqp",
+    "artist": "fromis_9",
     "name": "PITAPAT (DKDK)",
+    "album": "To. Day",
+    "uri": "30x5JeY6aI3nIJF6S97Jqp"
+  },
+  {
     "artist": "fromis_9",
-    "album": "To. Day"
+    "name": "FUN!",
+    "album": "FUN FACTORY",
+    "uri": "2yEjyto6ztOMGffProMlgX"
   },
   {
-    "uri": "spotify:track:1KFwBOa8gDqT7Avua2yxfe",
+    "artist": "fromis_9",
+    "name": "Feel Good (SECRET CODE)",
+    "album": "My Little Society",
+    "uri": "2ZpL1wqiiQ3DUWEjo8CgFL"
+  },
+  {
+    "artist": "WJSN",
     "name": "HAPPY",
-    "artist": "WJSN",
-    "album": "HAPPY MOMENT"
+    "album": "HAPPY MOMENT",
+    "uri": "1KFwBOa8gDqT7Avua2yxfe"
   },
   {
-    "uri": "spotify:track:1OIb1AalkGikhzCRbWgchd",
+    "artist": "WJSN",
     "name": "Secret",
-    "artist": "WJSN",
-    "album": "THE SECRET"
+    "album": "THE SECRET",
+    "uri": "1OIb1AalkGikhzCRbWgchd"
   },
   {
-    "uri": "spotify:track:1qpcqhkwZqCJAu4JxEhute",
+    "artist": "WJSN",
     "name": "Dreams Come True",
-    "artist": "WJSN",
-    "album": "Dream your dream"
+    "album": "Dream your dream",
+    "uri": "1qpcqhkwZqCJAu4JxEhute"
   },
   {
-    "uri": "spotify:track:20yOiJHRQGirFYehRSIb6i",
+    "artist": "WJSN",
     "name": "Save Me, Save You",
-    "artist": "WJSN",
-    "album": "WJ PLEASE?"
+    "album": "WJ PLEASE?",
+    "uri": "20yOiJHRQGirFYehRSIb6i"
   },
   {
-    "uri": "spotify:track:1pXpzhdyeryEw8DqhaVrwe",
+    "artist": "WJSN",
     "name": "La La Love",
-    "artist": "WJSN",
-    "album": "WJ STAY?"
+    "album": "WJ STAY?",
+    "uri": "1pXpzhdyeryEw8DqhaVrwe"
   },
   {
-    "uri": "spotify:track:6u5ipVfAHGjTXvWuiI5sKB",
+    "artist": "WJSN",
     "name": "Boogie Up",
-    "artist": "WJSN",
-    "album": "SPECIAL ALBUM <For the Summer>"
+    "album": "SPECIAL ALBUM <For the Summer>",
+    "uri": "6u5ipVfAHGjTXvWuiI5sKB"
   },
   {
-    "uri": "spotify:track:42zMiF3EFBg5CsYbgKdhj1",
-    "name": "As You Wish",
     "artist": "WJSN",
-    "album": "As You Wish"
+    "name": "As You Wish",
+    "album": "As You Wish",
+    "uri": "42zMiF3EFBg5CsYbgKdhj1"
+  },
+  {
+    "artist": "IU",
+    "name": "Good day",
+    "album": "REAL",
+    "uri": "1SwZVVH9BnXtLRLi2cbFhw"
+  },
+  {
+    "artist": "IU",
+    "name": "YOU & I (너랑 나)",
+    "album": "Last Fantasy",
+    "uri": ""
+  },
+  {
+    "artist": "LOONA/yyxy",
+    "name": "rendezvous 18.6y",
+    "album": "beauty&thebeat",
+    "uri": "3jueKDWC9DmTfnU2jMxE8U"
+  },
+  {
+    "artist": "Apink",
+    "name": "NoNoNo",
+    "album": "Secret Garden",
+    "uri": "5SusX17QvBBkH7WfMbTU0j"
+  },
+  {
+    "artist": "J.Y. Park, SUNMI",
+    "name": "When We Disco (Duet with SUNMI)",
+    "album": "When We Disco",
+    "uri": "6t9nnPyEZfjcn1aLJ4l9AK"
+  },
+  {
+    "artist": "Rocket Punch",
+    "name": "JUICY",
+    "album": "BLUE PUNCH",
+    "uri": "3u5G198W9Bnp0pmehuw53F"
+  },
+  {
+    "artist": "Apink",
+    "name": "Dumhdurum",
+    "album": "LOOK",
+    "uri": "55kuHkT2CWhWKF6CoRDnJq"
+  },
+  {
+    "artist": "LOOΠΔ / ODD EYE CIRCLE",
+    "name": "Uncover",
+    "album": "Max & Match",
+    "uri": "2oFbMd0TcgUm7Df4Sx16h9"
+  },
+  {
+    "artist": "APRIL",
+    "name": "Oh! my mistake",
+    "album": "APRIL 6th Mini Album 'the Ruby'",
+    "uri": "396Dkg9z5Q1hXxKryeP9T8"
+  },
+  {
+    "artist": "LOONA/yyxy",
+    "name": "frozen",
+    "album": "beauty&thebeat",
+    "uri": "5zNzvVBEuk8EEQslNTe42B"
+  },
+  {
+    "artist": "IZ*ONE",
+    "name": "Violeta",
+    "album": "HEART*IZ",
+    "uri": "0ahbzg4GCq3wJzUM3cjS3N"
+  },
+  {
+    "artist": "APRIL",
+    "name": "LALALILALA",
+    "album": "APRIL 7th Mini Album 'Da Capo'",
+    "uri": "5zMSAi7u8ltE97q4jZ1jqW"
+  },
+  {
+    "artist": "LOONA",
+    "name": "Colors",
+    "album": "[X X]",
+    "uri": "1bg4MF45JFU0Dx1MjLJ5vn"
+  },
+  {
+    "artist": "IZ*ONE",
+    "name": "Colors",
+    "album": "COLOR*IZ",
+    "uri": "6Xw8CSd3R6xqCmHHB9pBhb"
+  },
+  {
+    "artist": "IZ*ONE",
+    "name": "La Vie en Rose",
+    "album": "COLOR*IZ",
+    "uri": "1fRaznZsAB2i63TtmYv2Hc"
+  },
+  {
+    "artist": "IZ*ONE",
+    "name": "Highlight",
+    "album": "HEART*IZ",
+    "uri": "0288jQaJZLqK5hvPokmNBX"
   }
 ]
