@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaTwitter, FaEnvelope, FaGithub } from 'react-icons/fa'
+import { FaTwitter, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export default () => (
   <table>
@@ -35,6 +35,20 @@ export default () => (
         <td>
           <a href="mailto:leondrolio@leondrolio.com">
             leondrolio@leondrolio.com
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <FaLinkedin />
+        </td>
+        <td>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/leondro/"
+          >
+            leondro
           </a>
         </td>
       </tr>
