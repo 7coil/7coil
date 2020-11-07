@@ -9,9 +9,12 @@ https://leondrolio.best/* https://leondrolio.com/:splat 301!
 https://www.leondrolio.best/* https://leondrolio.com/:splat 301!
 https://moustacheminer.com/* https://leondrolio.com/:splat 301!
 https://www.moustacheminer.com/* https://leondrolio.com/:splat 301!
+https://terminal.ink/* https://leondrolio.com/ 301!
+https://www.terminal.ink/* https://leondrolio.com/ 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://moustacheminer.netlify.com/* https://leondrolio.com/:splat 301!
 
 # Discord
 /discord https://discordapp.com/invite/wHgdmf4 301!
+/wumpus https://discordapp.com/invite/wHgdmf4 301!
