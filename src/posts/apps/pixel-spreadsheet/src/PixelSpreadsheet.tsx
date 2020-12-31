@@ -165,7 +165,7 @@ class PixelSpreadsheet extends Component<{}, { height: number, image: HTMLImageE
           This version uses <b>exceljs</b> and HTML canvas to convert images into Microsoft Excel spreadsheets. No images are sent to any external servers, as processing is all done on your computer.
         </p>
         <p>
-          Image of Tapir in page screenshot by <a rel="nofollow" href="https://www.flickr.com/photos/dsifry/">David Sifry</a> - <a rel="nofollow"  href="https://www.flickr.com/photos/dsifry/3669848717/">Flickr</a>, <a href="https://creativecommons.org/licenses/by/2.0" title="Creative Commons Attribution 2.0">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=31099350">Link</a>
+          Image of 🐈 (cat) in page screenshot by Leondro Lio © 2020
         </p>
         <h2>Properties</h2>
         <div className={styles.inputFields}>
