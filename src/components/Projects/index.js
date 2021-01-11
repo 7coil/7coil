@@ -14,7 +14,7 @@ class Projects extends Component {
                 fields: { template: { in: ["projects", "apps"] } }
                 frontmatter: { homepage: { eq: true } }
               }
-              sort: { order: DESC, fields: [frontmatter___date] }
+              sort: { order: DESC, fields: [frontmatter___edited] }
             ) {
               edges {
                 node {
@@ -27,6 +27,7 @@ class Projects extends Component {
                     description
                     redirect
                     features
+                    edited
                     image {
                       childImageSharp {
                         fluid(
@@ -49,6 +50,7 @@ class Projects extends Component {
             {data.allMdx.edges
               .map((edge) => edge.node)
               .filter((page) => page.frontmatter.image) // Make sure pages have images
+              .sort((a, b) => a.frontmatter.edited - b.frontmatter.edited)
               .map((page, index) => {
                 const link = page.frontmatter.redirect || page.fields.slug
                 return (

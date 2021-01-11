@@ -13,6 +13,7 @@ features:
   - react
 image: ./example.png
 date: 2017-05-10 22:06:24+00
+edited: 1970-01-01 00:00:00
 homepage: true
 ---
 
