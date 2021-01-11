@@ -56,7 +56,7 @@ class Footer extends Component {
         <div className={styles.copyright}>
           <PaddingContainer>
             <p>
-              <i>Copyright Leondro Lio, 2015 - 2020</i>
+              <i>Copyright Leondro Lio, 2015 - 2021</i>
               <br />
               Website code licenced under the MIT licence.{' '}
               <a href="https://github.com/7coil/7coil">View it on GitHub</a>
