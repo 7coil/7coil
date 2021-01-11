@@ -54,26 +54,27 @@ class Projects extends Component {
               .map((page, index) => {
                 const link = page.frontmatter.redirect || page.fields.slug
                 return (
-                  <div className={styles.card} key={index}>
-                    {page.frontmatter.image && (
-                      <Link to={link}>
-                        <Img
-                          className={styles.cardImage}
-                          fluid={page.frontmatter.image.childImageSharp.fluid}
-                        />
-                      </Link>
-                    )}
-                    <div className={styles.cardContent}>
-                      <Link to={link}>
+                  <Link to={link} className={styles.link}>
+                    <div className={styles.card} key={index}>
+                      <div className={styles.imgContainer}>
+                        {page.frontmatter.image && (
+                          <Img
+                            className={styles.cardImage}
+                            fluid={page.frontmatter.image.childImageSharp.fluid}
+                          />
+                        )}
+                        <div className={styles.fade} />
+                      </div>
+                      <div className={styles.cardContent}>
                         <span className={styles.cardTitle}>
                           {page.frontmatter.title}
                         </span>
-                      </Link>
-                      <p className={styles.cardDescription}>
-                        {page.frontmatter.description}
-                      </p>
+                        <p className={styles.cardDescription}>
+                          {page.frontmatter.description}
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 )
               })}
           </div>
