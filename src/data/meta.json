@@ -1,0 +1,10 @@
+{
+  "siteName": "Leondro Lio",
+  "author": "Leondro Lio",
+  "siteUrl": "https://leondrolio.com",
+  "siteDescription": "A student who may or may not like LOONA, Tapirs and TypeScript",
+  "icon": {
+    "favicon": "./src/favicon.png",
+    "touchicon": "./src/icon.png"
+  }
+}
