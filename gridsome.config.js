@@ -15,5 +15,8 @@ module.exports = Object.assign({}, require("./src/data/meta.json"), {
         template: "./src/templates/Project.vue",
       },
     },
+    {
+      use: "@gridsome/plugin-sitemap",
+    },
   ],
 })
