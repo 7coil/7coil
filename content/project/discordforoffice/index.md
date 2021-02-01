@@ -7,6 +7,9 @@ image: ./Discord_kIgrNGpAWS.png
 date: 2017-05-10 22:06:24+00
 edited: 2021-02-01 03:55:32+00
 links:
+  - key: discord
+    name: Discord
+    link: https://discordapp.com/invite/wHgdmf4
   - key: github
     name: GitHub
     link: https://github.com/Terminal/DiscordForOffice
