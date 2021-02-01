@@ -14,7 +14,7 @@
         <a href="https://www.linkedin.com/in/leondro/">
           <site-button>LinkedIn</site-button>
         </a>
-        <a href="https://discordapp.com/wHgdmf4">
+        <a href="https://discordapp.com/invite/wHgdmf4">
           <site-button>Discord</site-button>
         </a>
       </template>
