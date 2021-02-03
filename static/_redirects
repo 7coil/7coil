@@ -19,8 +19,9 @@ https://moustacheminer.netlify.com/* https://leondrolio.com/:splat 301!
 /discord https://discordapp.com/invite/wHgdmf4 301!
 /wumpus https://discordapp.com/invite/wHgdmf4 301!
 
-# DiscordForOffice
+# Project Domains
 https://office.terminal.ink/* https://leondrolio.com/project/discordforoffice/ 301!
+https://discordmail.com/* https://leondrolio.com/ 301!
 
 # Old Projects page
 /projects/* /project/:splat 301!
