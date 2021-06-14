@@ -1,0 +1,21 @@
+.link {
+
+}
+
+.button {
+  border-radius: 5px;
+  padding: .4em;
+  border: 1px solid #d3d3d3;
+  background-color: #fff;
+  transition: background-color .5s;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: .2em;
+
+  &:hover {
+    background-color: #d3d3d3;
+  }
+
+  color: unset;
+}

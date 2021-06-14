@@ -5,6 +5,9 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import * as styles from './index.module.scss'
 import SEO from '../../components/SEO'
 import PaddingContainer from '../../components/PaddingContainer'
+import { Jumbotron } from '../../components/Jumbotron'
+import { ButtonRow } from '../../components/ButtonRow'
+import { SiteButton } from '../../components/SiteNavigation'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -20,27 +23,17 @@ export default function Template({
           frontmatter.image ? frontmatter.image.childImageSharp.fluid.src : null
         }
       />
+      <Jumbotron>
+        <PaddingContainer centre>
+          <h1>{frontmatter.title}</h1>
+          <ButtonRow>
+            {
+              frontmatter.links.map(link => <SiteButton href={link.link} key={link.link}>{link.name}</SiteButton>)
+            }
+          </ButtonRow>
+        </PaddingContainer>
+      </Jumbotron>
       <PaddingContainer>
-        <p>{fields.slug.replace(/\//g, ' / ')}</p>
-        <h2>Links</h2>
-        {frontmatter.links && (
-          <ul>
-            {frontmatter.links.map((link) => (
-              <li key={link.key}>
-                <a href={link.link}>{link.name}</a>
-              </li>
-            ))}
-          </ul>
-        )}
-        <h1>{frontmatter.title}</h1>
-        {frontmatter.redirect && (
-          <>
-            <p>
-              This page has been redirected to:{' '}
-              <Link to={frontmatter.redirect}>{frontmatter.redirect}</Link>
-            </p>
-          </>
-        )}
         <div className={styles.content}>
           <MDXRenderer>{body}</MDXRenderer>
         </div>

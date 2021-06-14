@@ -6,5 +6,5 @@ description: |
   classifying and summing up the value of British Pound coins.
 period: 1st and 2nd of February 2020
 homepage: true
-disable: true
+render: false
 ---

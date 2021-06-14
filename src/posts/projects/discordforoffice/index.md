@@ -14,76 +14,121 @@ image: ./Discord_BPfGSQ10Ev.png
 date: 2017-05-10 22:06:24+00
 edited: 1970-01-01 00:00:00
 homepage: true
+render: true
 ---
 
-DiscordForOffice is a family of extensions for the Microsoft Office suite, which display information extracted from the program to your friends on Discord.
+import { Row, Column } from '../../../components/Structure'
 
-![A screenshot of an example embed that may be displayed on your Discord profile.](./Discord_QUpmLv9epn.png)
+<center>
 
-Supported Office Applications:
+## Present to the world your love for work
+
+Link Microsoft Office 2013, 2016, 2019 or Office 365 to DiscordForOffice, and _present_ yourself to the world!  
+DiscordForOffice _excells_ in showing your friends key information from Microsoft Word, PowerPoint, Excel and Outlook.
+
+## Requirements
+
+</center>
+
+<Row>
+<Column>
+
+One of:
+
+- Microsoft Office 2013
+- Microsoft Office 2016
+- Microsoft Office 2019
+- Microsoft Office 365
+
+Both 32-bit and 64-bit versions are supported ✨
+
+</Column>
+<Column>
+
+At least one of:
 
 - Microsoft Word
-- Microsoft Excel
 - Microsoft PowerPoint
+- Microsoft Excel
 - Microsoft Outlook
 
-Not (Yet) Supported Applications:
+</Column>
+<Column>
 
-- Microsoft Visio
+Does not work with:
 
-Not Supported Applications:
+- Microsoft Access
+- Microsoft Publisher
+- Microsoft OneNote 2013
+- Microsoft OneNote 2016
+- Microsoft OneNote (Windows 10)
+- Microsoft Teams
+- Any other Microsoft product
 
-- Microsoft OneNote
+</Column>
+</Row>
+
+<center>
 
 ## Installation
 
-### Step 1: Add `office.terminal.ink` to your trusted internet sites
+<Row>
+<Column>
 
-To ensure untrusted applications from being executed on your computer,
-Microsoft do not allow the installation of applications not signed for,
-or not in your "Trusted Internet Sites" list.
+### Step 1
 
-To add our link to your list:
+[Download DiscordForOffice](https://github.com/7coil/DiscordForOffice/releases)
 
-- Open Internet Options in the Start Menu
-- Enter the Security tab
-- Click on Trusted Sites
-- Click on Sites
-- Add `https://office.terminal.ink` to the list of trusted sites
+The 32-bit version is recommended.  
+Find out why the 64-bit version may not work for you [here](#i-have-a-64-bit-computer-and-i-installed-the-64-bit-version-of-discordforoffice-but-its-not-working)
 
-### Step 2: Download and install DiscordForOffice
+</Column>
+<Column>
 
-Find downloads in our [GitHub Releases](https://github.com/Terminal/DiscordForOffice/releases) page.
+### Step 2
 
-## Issues
+Go through the installation
 
-### 2016/2019 Differentiation
+![The installer](./msiexec_2okURQIurf.png)
 
-The version number of Microsoft Office 2016 and 2019 are shared, and not different like past versions of Office.
-There is currently no differentiation in the software as a result.
+</Column>
+<Column>
 
-## Licence
+### Step 3
 
-```
-MIT License
+Your Discord Rich Presence (should) now be working!
 
-Copyright (c) 2020 Leondro Lio
+If it doesn't work, [let us know](https://github.com/7coil/DiscordForOffice/issues/new) by creating an issue on GitHub
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+![A Discord Rich Presence preview](./Discord_rMJvB9M0G3.png)
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+</Column>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+</Row>
+
+</center>
+
+## Frequently asked Questions
+
+### I have a 64-bit computer, and I installed the 64-bit version of DiscordForOffice, but it's not working!
+
+You probably want to install the 32-bit version of DiscordForOffice as the version of Microsoft Office installed on your computer is the 32-bit version.
+
+You may not mix and match DiscordForOffice and Microsoft Office bitness.
+
+#### Fix
+
+1. Open Control Panel, and uninstall **DiscordForOffice (for 64-bit Office)**
+2. Go back to the download page, and download the 32-bit version of DiscordForOffice
+3. Continue with the installation
+
+### I have a 64-bit computer, and I have a 64-bit version of Microsoft Word. Which version of DiscordForOffice should I install?
+
+Congratulations!
+The 64-bit version of DiscordForOffice is for you!
+
+### How do I uninstall DiscordForOffice?
+
+Find it in the Control Panel or Settings app of your version of Microsoft Windows.
+
+![Control Panel](./explorer_d2az9N6qMk.png)

@@ -8,5 +8,5 @@ description: |
   and technology, such as 3D modelling and printing.
 period: 2017 to 2019
 homepage: true
-disable: true
+render: false
 ---

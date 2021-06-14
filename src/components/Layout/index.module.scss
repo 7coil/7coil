@@ -1,83 +1,15 @@
-// @font-face {
-//   font-family: 'Transport New';
-//   src:
-//     url('https://fonts.leondrolio.com/TransportNew-Medium.woff2') format('woff2'),
-//     url('https://fonts.leondrolio.com/TransportNew-Medium.woff') format('woff'),
-//     url('https://fonts.leondrolio.com/TransportNew-Medium.ttf') format('truetype');
-// }
-
-// @font-face {
-//   font-family: 'Transport New';
-//   src:
-//     url('https://fonts.leondrolio.com/TransportNew-Light.woff2') format('woff2'),
-//     url('https://fonts.leondrolio.com/TransportNew-Light.woff') format('woff'),
-//     url('https://fonts.leondrolio.com/TransportNew-Light.ttf') format('truetype');
-//   font-weight: lighter;
-// }
-
-// @font-face {
-//   font-family: 'Transport New';
-//   src:
-//     url('https://fonts.leondrolio.com/TransportNew-Heavy.woff2') format('woff2'),
-//     url('https://fonts.leondrolio.com/TransportNew-Heavy.woff') format('woff'),
-//     url('https://fonts.leondrolio.com/TransportNew-Heavy.ttf') format('truetype');
-//   font-weight: bold;
-// }
-
-// @font-face {
-//   font-family: 'Transport New';
-//   src:
-//     url('https://fonts.leondrolio.com/TransportNew-Medium.woff2') format('woff2'),
-//     url('https://fonts.leondrolio.com/TransportNew-Medium.woff') format('woff'),
-//     url('https://fonts.leondrolio.com/TransportNew-Medium.ttf') format('truetype');
-//   font-style: italic;
-// }
-
-// @font-face {
-//   font-family: 'Transport New';
-//   src:
-//     url('https://fonts.leondrolio.com/TransportNew-LightItalic.woff2') format('woff2'),
-//     url('https://fonts.leondrolio.com/TransportNew-LightItalic.woff') format('woff'),
-//     url('https://fonts.leondrolio.com/TransportNew-LightItalic.ttf') format('truetype');
-//   font-weight: lighter;
-//   font-style: italic;
-// }
-
-// @font-face {
-//   font-family: 'Transport New';
-//   src:
-//     url('https://fonts.leondrolio.com/TransportNew-HeavyItalic.woff2') format('woff2'),
-//     url('https://fonts.leondrolio.com/TransportNew-HeavyItalic.woff') format('woff'),
-//     url('https://fonts.leondrolio.com/TransportNew-HeavyItalic.ttf') format('truetype');
-//   font-weight: bold;
-//   font-style: italic;
-// }
-
 @import 'config';
-@import '~@fontsource/montserrat/index.css';
 
 body {
   margin: 0;
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  text-decoration: underline;
-  text-decoration-color: $secondary-colour;
-  text-decoration-thickness: 0.2em;
-  text-decoration-skip-ink: none;
-  text-underline-offset: 0.3em;
-  border-bottom: 0.4em;
-  padding-bottom: 0.4em;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
 }
 
 .body {
-	width: 100%;
 	min-height: 100vh;
 	box-sizing: border-box;
-	padding-top: 0;
 	display: flex;
-	flex-direction: column
+	flex-direction: column;
 }
 
 .main {

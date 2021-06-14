@@ -39,7 +39,7 @@ exports.createPages = ({ actions, graphql, reporter }) => {
               slug
             }
             frontmatter {
-              disable
+              render
             }
           }
         }
@@ -71,7 +71,7 @@ exports.createPages = ({ actions, graphql, reporter }) => {
         )
       }
 
-      if (node.frontmatter?.disable !== true) {
+      if (node.frontmatter.render) {
         createPage({
           path: node.fields.slug,
           component: templatePath,

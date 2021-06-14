@@ -11,5 +11,6 @@ image: ./firefox_8dscOVNWeo.png
 date: 2020-12-31 01:29:49
 edited: 2021-01-11 04:29:45
 homepage: true
+render: false
 redirect: https://royalhackaway.com/
 ---

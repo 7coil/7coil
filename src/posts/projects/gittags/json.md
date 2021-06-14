@@ -3,6 +3,7 @@ title: GitTags with JSON
 description: Use JSON to utilise Discord embeds with GitTags
 date: 2020-01-26 02:50:55
 homepage: false
+render: false
 ---
 
 GitTags can print messages as an embed.

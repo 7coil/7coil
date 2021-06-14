@@ -3,6 +3,7 @@ title: GitTags with Handlebars
 description: Utilise Handlebars to manipulate the output of a tag
 date: 2020-01-26 02:47:57
 homepage: false
+render: false
 ---
 
 GitTags can perform some operations to enhance your tags.

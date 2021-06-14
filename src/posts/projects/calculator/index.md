@@ -8,8 +8,8 @@ links:
 image: ./eclipse_hMQRXvl2Wm.png
 date: 2020-12-04 14:36:12+00
 edited: 2020-12-08 19:20:51+00
-homepage: false
-disable: false
+homepage: true
+render: true
 ---
 
 ## How do I?

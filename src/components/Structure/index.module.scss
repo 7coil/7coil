@@ -1,0 +1,13 @@
+@import 'config';
+
+.row {
+  display: flex;
+  gap: 1em;
+  @include onMobile {
+    flex-direction: column;
+  }
+}
+
+.column {
+  flex-basis: 100%;;
+}
