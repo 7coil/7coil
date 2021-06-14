@@ -4,7 +4,7 @@ import React from 'react';
 import CombineStyles from '../../helpers/CombineStyles';
 import PaddingContainer from '../PaddingContainer';
 import SocialMediaHandles from '../SocialMediaHandles';
-import styles from './index.module.scss';
+import * as styles from './index.module.scss';
 import Header from '../Header';
 
 const WelcomeWheel = ({ children, className = '' }) => (

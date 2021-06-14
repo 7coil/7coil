@@ -1,5 +1,5 @@
 import React, { ChangeEvent, Component } from 'react';
-import styles from './index.module.scss';
+import * as styles from './index.module.scss';
 import PaddingContainer from '../../../../components/PaddingContainer';
 import CombineStyles from '../../../../helpers/CombineStyles';
 

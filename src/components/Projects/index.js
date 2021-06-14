@@ -1,7 +1,7 @@
 import { graphql, Link, StaticQuery } from 'gatsby'
 import Img from 'gatsby-image'
 import React, { Component } from 'react'
-import styles from './index.module.scss'
+import * as styles from './index.module.scss'
 
 class Projects extends Component {
   render() {

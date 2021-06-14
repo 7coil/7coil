@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import DefaultSEO from '../DefaultSEO'
 import Footer from '../Footer'
 import Header from '../Header'
-import styles from './index.module.scss'
+import * as styles from './index.module.scss'
 
 class Layout extends Component {
   render() {

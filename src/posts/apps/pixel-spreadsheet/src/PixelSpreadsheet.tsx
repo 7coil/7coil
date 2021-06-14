@@ -1,6 +1,6 @@
 import React, { ChangeEvent, Component, RefObject, ReactEventHandler } from 'react';
 import PaddingContainer from '../../../../components/PaddingContainer';
-import styles from './index.module.scss';
+import * as styles from './index.module.scss';
 import ExcelJS from 'exceljs';
 import CombineStyles from '../../../../helpers/CombineStyles'
 

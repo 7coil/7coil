@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './index.module.scss'
+import * as styles from './index.module.scss'
 import PaddingContainer from '../PaddingContainer'
 import { graphql, Link, StaticQuery } from 'gatsby'
 import CombineStyles from '../../helpers/CombineStyles'

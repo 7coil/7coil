@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Layout from '../../components/Layout'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
-import styles from './index.module.scss'
+import * as styles from './index.module.scss'
 import SEO from '../../components/SEO'
 import PaddingContainer from '../../components/PaddingContainer'
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PaddingContainer from '../PaddingContainer'
 import SocialMediaHandles from '../SocialMediaHandles'
-import styles from './index.module.scss'
+import * as styles from './index.module.scss'
 import music from './music.json'
 
 class Footer extends Component {
