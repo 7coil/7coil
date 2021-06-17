@@ -159,10 +159,13 @@ class PixelSpreadsheet extends Component<{}, { height: number, image: HTMLImageE
       <PaddingContainer>
         <h1>Pixel Spreadsheet</h1>
         <p>
-          A recreation of Matt Parker&apos;s <a href="https://www.think-maths.co.uk/spreadsheet" target="_blank">image-to-spreadsheet</a> online generator
+          This is a recreation of Matt Parker&apos;s <a href="https://www.think-maths.co.uk/spreadsheet" target="_blank">image-to-spreadsheet</a> online spreadsheet generation software.
         </p>
         <p>
           This version uses <b>exceljs</b> and HTML canvas to convert images into Microsoft Excel spreadsheets. No images are sent to any external servers, as processing is all done on your computer.
+        </p>
+        <p>
+          For more context, watch Matt's video about this here: <a href="https://www.youtube.com/watch?v=UBX2QQHlQ_I">Stand-up comedy routine about Spreadsheets</a>
         </p>
         <p>
           Image of 🐈 (cat) in page screenshot by Leondro Lio © 2020

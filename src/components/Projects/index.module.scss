@@ -13,13 +13,17 @@
     border-style: solid;
     border-width: 1px;
     border-color: lightgrey;
+    border-radius: 3px;
     margin-bottom: 1em;
 
     .imgContainer {
       position: relative;
-      width: 20vw;
+      width: 15vw;
       height: 100%;
-      max-height: 20vh;
+
+      @include onDesktop {
+        max-height: 20vh;
+      }
     }
 
     .cardContent {
@@ -45,7 +49,7 @@
       top: 0;
       bottom: 0;
       right: 0;
-      width: 20vw;
+      width: 15vw;
     }
 
   }

@@ -7,7 +7,7 @@ links:
     link: https://github.com/rhul-compsoc/royalhackaway.com
 features:
   - react
-image: ./firefox_8dscOVNWeo.png
+image: ./Screenshot 2021-06-15 at 06-12-31 hackaway v5.png
 date: 2020-12-31 01:29:49
 edited: 2021-01-11 04:29:45
 homepage: true

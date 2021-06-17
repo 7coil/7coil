@@ -36,3 +36,9 @@ $youtube-colour: red;
 		@content;
 	}
 }
+
+@mixin onDesktop {
+  @media screen and (min-width: 599px) {
+		@content;
+	}
+}
