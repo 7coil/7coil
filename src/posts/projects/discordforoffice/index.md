@@ -5,9 +5,9 @@ links:
   - key: github
     name: GitHub
     link: https://github.com/Terminal/DiscordForOffice
-  - key: website
-    name: Windows Application
-    link: https://github.com/Terminal/DiscordForOffice/releases/tag/1.0.3
+  - key: installation
+    name: Installation
+    link: '#instructions'
 features:
   - csharp
 image: ./Discord_BPfGSQ10Ev.png
@@ -70,6 +70,8 @@ Does not work with:
 
 <center>
 
+<a name="instructions" />
+
 ## Installation
 
 <Row>
@@ -79,8 +81,9 @@ Does not work with:
 
 [Download DiscordForOffice](https://github.com/7coil/DiscordForOffice/releases)
 
-The 32-bit version is recommended.  
-Find out why the 64-bit version may not work for you [here](#i-have-a-64-bit-computer-and-i-installed-the-64-bit-version-of-discordforoffice-but-its-not-working)
+Install the **32-bit** version of DiscordForOffice
+
+[I have **64-bit**. Why not **64-bit**?](#bits)
 
 </Column>
 <Column>
@@ -96,9 +99,11 @@ Go through the installation
 
 ### Step 3
 
+Restart all Microsoft Office applications by closing and opening them.
+
 Your Discord Rich Presence (should) now be working!
 
-If it doesn't work, [let us know](https://github.com/7coil/DiscordForOffice/issues/new) by creating an issue on GitHub
+If it doesn't work, let us know by creating an [issue on GitHub](https://github.com/7coil/DiscordForOffice/issues/new) or asking for technical support on [Discord](https://discord.gg/Ars8Hkr2PC)
 
 ![A Discord Rich Presence preview](./Discord_rMJvB9M0G3.png)
 
@@ -109,6 +114,8 @@ If it doesn't work, [let us know](https://github.com/7coil/DiscordForOffice/issu
 </center>
 
 ## Frequently asked Questions
+
+<a name="bits" />
 
 ### I have a 64-bit computer, and I installed the 64-bit version of DiscordForOffice, but it's not working!
 

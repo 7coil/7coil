@@ -26,6 +26,7 @@ export default function Template({
       <Jumbotron>
         <PaddingContainer centre>
           <h1>{frontmatter.title}</h1>
+          <p>{frontmatter.description}</p>
           <ButtonRow>
             {
               frontmatter.links.map(link => <SiteButton href={link.link} key={link.link}>{link.name}</SiteButton>)
