@@ -21,3 +21,6 @@ https://moustacheminer.netlify.com/* https://leondrolio.com/:splat 301!
 
 # DiscordForOffice
 https://office.terminal.ink/* https://leondrolio.com/projects/discordforoffice/ 301!
+
+# CV
+/cv /cv.pdf 301!

@@ -1,8 +1,7 @@
+import { Link } from 'gatsby'
 import React from 'react'
-import { content, rainbow, edge } from './index.module.scss'
 import PaddingContainer from '../PaddingContainer'
-import { graphql, Link, StaticQuery } from 'gatsby'
-import CombineStyles from '../../helpers/CombineStyles'
+import { content, edge, rainbow } from './index.module.scss'
 
 const Header = ({ className }) => (
   <header>
