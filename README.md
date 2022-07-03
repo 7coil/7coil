@@ -1,3 +1,1 @@
-![](http://textfiles.com/underconstruction/mamagnolia_acresunderconstruction.gif)
-
-GitHub banner under construction.
+[british developer in need of job](https://leondrolio.com/cv)
