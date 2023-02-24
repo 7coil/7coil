@@ -16,7 +16,7 @@ class Footer extends Component {
     return (
       <footer className={styles.footer}>
         <PaddingContainer>
-          <p>Copyright Leondro Lio, 2015 - 2021</p>
+          <p>Copyright Leondro Lio, 2015 - 2023</p>
           {song && (
               <p>
                 You should probably listen to <i>{song.name}</i> by{' '}
